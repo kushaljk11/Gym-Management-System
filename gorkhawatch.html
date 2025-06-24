@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/c18b7bd86a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/gorkha.css">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Gurkha Watch Collection</title>
+</head>
+<body>
+    <div class="main">
+        <header>
+            <button class="menu-toggle" onclick="toggleMenu()">
+                <i class="fas fa-bars"></i>
+            </button>
+    
+            <div class="logo">
+                <img src="pic/fulllogoo.png"  href="index.html" alt="Logo">
+            </div>
+            <!-- <div class="search-icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="login-icon">
+                <i class="fas fa-user"></i>
+            </div>
+            <div class="globe-icon">
+                <i class="fa-solid fa-globe"></i>
+            </div> -->
+            <div class="cart-icon">
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+            <div class="wishlist-icon">
+                <i class="fa-regular fa-heart"></i>
+            </div>
+            
+            <div class="menu" id="menubar">
+                <div class="menu-header">
+                    <button class="close-btn" onclick="toggleMenu()">
+                        <i class="fa-solid fa-xmark"></i>
+                        
+                    </button>
+                </div>
+
+                <div class="menu-content">
+                    <button class="menu-item"><a href="index.html">Home</a></button>
+                    <button class="menu-item"> <a href="product.html">Product</a></button>
+                    <button class="menu-item"><a href="Blog.html">Blog</a></button>
+                    <button class="menu-item"><a href="research.html">Research</a></button>
+                    <button class="menu-item"><a href="aboutus.html">About Us</a></button>
+                </div>
+            </div>
+        </header>
+    </div>
+
+    <div class="container">
+        <h2 class="wheading">Find your Gurkha Watch</h2>
+        <div class="filters">
+            <div class="search-wrapper">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+                <input type="text" placeholder="Search watches...">
+            </div>
+            
+            <div class="filter-controls">
+                <button class="filter-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="21" x2="3" y1="4" y2="4"/><line x1="13" x2="3" y1="12" y2="12"/><line x1="21" x2="3" y1="20" y2="20"/></svg>
+                    Filters
+                </button>
+                <select id="model-select">
+                    <option>All Collections</option>
+                    <option>URBAN</option>
+                    <option>NATO</option>
+                    <option>G200</option>
+                    <option>Combat</option>
+                    <option>VOSTOK</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="watch-grid">
+            <div class="watch-card" data-model="URBAN">
+          <div class="watch-image">
+            <a href="gurkhawatchdescp.html">
+                    <img src="images/gurkha/uc-black.jpg" alt="Urban Chrono Flare">
+                    <span class="badge limited">Limited Edition</span>
+                    <button class="favorite">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                    </button>
+                </a>
+                </div>
+                <div class="watch-info">
+                    <div class="watch-details">
+                        <h3>Urban Chrono Flare</h3>
+                        <p class="model">URBAN</p>
+                        <p class="specs">42mm</p>
+                    </div>
+                    <p class="price">Rs16,400</p>
+                </div>
+                <div class="actions">
+                    <button class="buy">Buy Now</button>
+                    <button class="addtocart">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="watch-card" data-model="NATO">
+                <div class="watch-image">
+                    <img src="images/gurkha/moonlight.jpg" alt="NATO Moon Light">
+                    <button class="favorite">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                    </button>
+                </div>
+                <div class="watch-info">
+                    <div class="watch-details">
+                        <h3>NATO Moon Light</h3>
+                        <p class="model">NATO</p>
+                        <p class="specs">42mm</p>
+                    </div>
+                    <p class="price">Rs15,299</p>
+                </div>
+                <div class="actions">
+                    <button class="buy">Buy Now</button>
+                    <button class="addtocart">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="watch-card" data-model="NATO">
+                <div class="watch-image">
+                    <img src="images/gurkha/nato-nylon.jpg" alt="NATO RGR">
+                    <span class="badge new">New</span>
+                    <button class="favorite">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                    </button>
+                </div>
+                <div class="watch-info">
+                    <div class="watch-details">
+                        <h3>NATO RGR</h3>
+                        <p class="model">NATO</p>
+                        <p class="specs">42mm</p>
+                    </div>
+                    <p class="price">₨14,449</p>
+                </div>
+                <div class="actions">
+                    <button class="buy">Buy Now</button>
+                    <button class="addtocart">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="watch-card" data-model="NATO">
+                <div class="watch-image">
+                    <img src="images/gurkha/moss-green.jpg" alt="NATO Moss Green">
+                    <span class="badge limited">Limited Edition</span>
+                    <button class="favorite">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                    </button>
+                </div>
+                <div class="watch-info">
+                    <div class="watch-details">
+                        <h3>NATO Moss Green</h3>
+                        <p class="model">NATO</p>
+                        <p class="specs">42mm</p>
+                    </div>
+                    <p class="price">Rs16,149</p>
+                </div>
+                <div class="actions">
+                    <button class="buy">Buy Now</button>
+                    <button class="addtocart">Add to Cart</button>
+                </div>
+            </div>
+            <div class="watch-card" data-model="G200">
+              <div class="watch-image">
+                  <img src="images/gurkha/mix.jpg" alt="G200-Mix">
+                  <span class="badge limited">Limited Edition</span>
+                  <button class="favorite">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                  </button>
+              </div>
+              <div class="watch-info">
+                  <div class="watch-details">
+                      <h3>G200-Mix</h3>
+                      <p class="model">G200</p>
+                      <p class="specs">39mm</p>
+                  </div>
+                  <p class="price">₨19,549</p>
+              </div>
+              <div class="actions">
+                  <button class="buy">Buy Now</button>
+                  <button class="addtocart">Add to Cart</button>
+              </div>
+          </div>
+          <div class="watch-card" data-model="G200">
+            <div class="watch-image">
+                <img src="images/gurkha/silver-3.jpg" alt="G200-Silver">
+                <span class="badge limited">Limited Edition</span>
+                <button class="favorite">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                </button>
+            </div>
+            <div class="watch-info">
+                <div class="watch-details">
+                    <h3>G200-Silver</h3>
+                    <p class="model">G200</p>
+                    <p class="specs">42mm</p>
+                </div>
+                <p class="price">$40,500</p>
+            </div>
+            <div class="actions">
+                <button class="buy">Buy Now</button>
+                <button class="addtocart">Add to Cart</button>
+            </div>
+        </div>
+        <div class="watch-card" data-model="G200">
+          <div class="watch-image">
+              <img src="images/gurkha/black-2.jpg" alt="G200-Dark">
+              <span class="badge limited">Limited Edition</span>
+              <button class="favorite">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              </button>
+          </div>
+          <div class="watch-info">
+              <div class="watch-details">
+                  <h3>G200-Dark</h3>
+                  <p class="model">G200</p>
+                  <p class="specs">42mm</p>
+              </div>
+              <p class="price">₨19,549</p>
+          </div>
+          <div class="actions">
+              <button class="buy">Buy Now</button>
+              <button class="addtocart">Add to Cart</button>
+          </div>
+      </div>
+      <div class="watch-card" data-model="NATO">
+        <div class="watch-image">
+            <img src="images/gurkha/bronze.jpg" alt="NATO Bronze Brown">
+            <span class="badge limited">Limited Edition</span>
+            <button class="favorite">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            </button>
+        </div>
+        <div class="watch-info">
+            <div class="watch-details">
+                <h3>NATO Bronze Brown</h3>
+                <p class="model">NATO</p>
+                <p class="specs">39mm</p>
+            </div>
+            <p class="price">₨16,999</p>
+        </div>
+        <div class="actions">
+            <button class="buy">Buy Now</button>
+            <button class="addtocart">Add to Cart</button>
+        </div>
+      </div>
+      <div class="watch-card" data-model="Combat">
+        <div class="watch-image">
+            <img src="images/gurkha/combat-2.jpg" alt="Combat Green">
+            <span class="badge limited">Limited Edition</span>
+            <button class="favorite">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            </button>
+        </div>
+        <div class="watch-info">
+            <div class="watch-details">
+                <h3>Combat Green</h3>
+                <p class="model">Combat</p>
+                <p class="specs">44mm</p>
+            </div>
+            <p class="price">₨14,500</p>
+        </div>
+        <div class="actions">
+            <button class="buy">Buy Now</button>
+            <button class="addtocart">Add to Cart</button>
+        </div>
+      </div>
+      <div class="watch-card" data-model="G200">
+        <div class="watch-image">
+            <img src="images/gurkha/gold-1.jpg" alt="G200-Golden">
+            <span class="badge limited">Limited Edition</span>
+            <button class="favorite">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            </button>
+        </div>
+        <div class="watch-info">
+            <div class="watch-details">
+                <h3>G200-Golden</h3>
+                <p class="model">G200</p>
+                <p class="specs">39mm</p>
+            </div>
+            <p class="price">₨14,500</p>
+        </div>
+        <div class="actions">
+            <button class="buy">Buy Now</button>
+            <button class="addtocart">Add to Cart</button>
+        </div>
+      </div>
+      <div class="watch-card" data-model="URBAN">
+        <div class="watch-image">
+            <img src="images/gurkha/uc-black (1).jpg" alt="Urban Chrono Black">
+            <span class="badge limited">Limited Edition</span>
+            <button class="favorite">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            </button>
+        </div>
+        <div class="watch-info">
+            <div class="watch-details">
+                <h3>Urban Chrono Black</h3>
+                <p class="model">URBAN</p>
+                <p class="specs">42mm</p>
+            </div>
+            <p class="price">₨14,874</p>
+        </div>
+        <div class="actions">
+            <button class="buy">Buy Now</button>
+            <button class="addtocart">Add to Cart</button>
+        </div>
+      </div>
+      <div class="watch-card" data-model="VOSTOK">
+        <div class="watch-image">
+            <img src="images/gurkha/vblack.jpg" alt="Vostok Leather">
+            <span class="badge limited">Limited Edition</span>
+            <button class="favorite">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            </button>
+        </div>
+        <div class="watch-info">
+            <div class="watch-details">
+                <h3>Vostok Leather</h3>
+                <p class="model">VOSTOK</p>
+                <p class="specs">42mm</p>
+            </div>
+            <p class="price">₨20,500</p>
+        </div>
+        <div class="actions">
+            <button class="buy">Buy Now</button>
+            <button class="addtocart">Add to Cart</button>
+        </div>
+      </div>
+      <div class="watch-card" data-model="VOSTOK">
+        <div class="watch-image">
+            <img src="images/gurkha/vrsilicon.jpg" alt="Super Luminova Red Silicone">
+            <span class="badge limited">Limited Edition</span>
+            <button class="favorite">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            </button>
+        </div>
+        <div class="watch-info">
+            <div class="watch-details">
+                <h3>Super Luminova Red Silicone</h3>
+                <p class="model">VOSTOK</p>
+                <p class="specs">42mm</p>
+            </div>
+            <p class="price">₨20,500</p>
+        </div>
+        <div class="actions">
+            <button class="buy">Buy Now</button>
+            <button class="addtocart">Add to Cart</button>
+        </div>
+      </div>
+     </div>
+    </div>
+    <footer class="footer2"> 
+        <div class="footer-column"> 
+           <h3 style="color: rgb(209, 204, 204);">Customer care</h3> 
+           <ul> 
+               <li><a href="#">How to buy?</a></li> 
+               <li><a href="#">Help center</a></li> 
+               <li><a href="#">Contact us</a></li> 
+           </ul> 
+       </div> 
+       <div class="footer-column"> 
+           <h3 style="color: rgb(209, 204, 204);">Chronos</h3> 
+           <ul> 
+               <li><a href="aboutus.html">About us</a></li>
+               <li><a href="#">Privacy policy</a></li> 
+               <li><a href="#">Career</a></li> 
+               <li><a href="#">Blog</a></li> 
+               <li><a href="#">Terms & Conditions</a></li> 
+           </ul> 
+       </div> 
+       <div class="footer-column">
+            <h3 style="color: rgb(209, 204, 204);">Services</h3> 
+            <ul> 
+               <li><a href="#">Find store</a></li> 
+               <li><a href="#">Locate me</a></li> 
+               <li><a href="#">Watch finder</a></li> 
+           </ul> 
+       </div>
+        </footer>
+        
+        <footer>
+            &copy; 2025 Chronos. All rights reserved.
+        </footer>
+    <script src="script/product.js"></script>
+    <script src="script/index.js"></script>
+</body>
+</html>

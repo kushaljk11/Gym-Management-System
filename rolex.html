@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/c18b7bd86a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/rolex.css">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Rolex Collection</title>
+</head>
+<body>
+    <div class="main">
+        <header>
+            <button class="menu-toggle" onclick="toggleMenu()">
+                <i class="fas fa-bars"></i>
+            </button>
+    
+            <div class="logo">
+                <img src="pic/fulllogoo.png"  href="index.html" alt="Logo">
+            </div>
+            <!-- <div class="search-icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="login-icon">
+                <i class="fas fa-user"></i>
+            </div>
+            <div class="globe-icon">
+                <i class="fa-solid fa-globe"></i>
+            </div> -->
+            <div class="cart-icon">
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+            <div class="wishlist-icon">
+                <i class="fa-regular fa-heart"></i>
+            </div>
+            
+            <div class="menu" id="menubar">
+                <div class="menu-header">
+                    <button class="close-btn" onclick="toggleMenu()">
+                        <i class="fa-solid fa-xmark"></i>
+                        
+                    </button>
+                </div>
+
+                <div class="menu-content">
+                    <button class="menu-item"><a href="index.html">Home</a></button>
+                    <button class="menu-item"> <a href="product.html">Product</a></button>
+                    <button class="menu-item"><a href="Blog.html">Blog</a></button>
+                    <button class="menu-item"><a href="research.html">Research</a></button>
+                    <button class="menu-item"><a href="aboutus.html">About Us</a></button>
+                </div>
+            </div>
+        </header>
+    </div>
+
+    <div class="container">
+        <h2 class="wheading">Find your Rolex</h2>
+        <div class="filters">
+            <div class="search-wrapper">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+                <input type="text" placeholder="Search watches...">
+            </div>
+            
+            <div class="filter-controls">
+                <button class="filter-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="21" x2="3" y1="4" y2="4"/><line x1="13" x2="3" y1="12" y2="12"/><line x1="21" x2="3" y1="20" y2="20"/></svg>
+                    Filters
+                </button>
+                <select id="model-select">
+                  <option>All Collections</option>
+                  <option>Day-Date</option>
+                  <option>Datejust</option>
+                  <option>GMT-Master </option>
+                  <option>Daytona</option>
+                  <option>Submariner</option>
+                </select>
+            </div>
+        </div>
+        <style>
+            a {
+                text-decoration: none;
+                color: black;
+            }
+        </style>
+
+        <div class="watch-grid">
+            <div class="watch-card" data-model="Datejust">
+                <a href="rolexdescp.html">
+                <div class="watch-image">
+                    <img src="images/rolex img/1.jpg" alt="Rolex Datejust-White Dial">
+                    <span class="badge limited">Limited Edition</span>
+                    <button class="favorite">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                    </button>
+                </a>
+                </div>
+                
+                <div class="watch-info">
+                    <a href="rolexdescp.html">
+                    <div class="watch-details">
+                        <h3>Rolex Datejust-White Dial</h3>
+                        <p class="model">Datejust</p>
+                        <p class="reference-number">126233</p>
+                    </div>
+                </a>
+                    <p class="price">$12,995</p>
+                </div>
+                <div class="actions">
+                    <button class="buy">Buy Now</button>
+                    <button class="addtocart">Add to Cart</button>
+                </div>
+             </div>
+             <div class="watch-card">
+                <div class="watch-image">
+                    <img src="images/rolex img/2.jpg" alt="Rolex Datejust- Wimbledon Dial">
+                    <span class="badge limited">Limited Edition</span>
+                    <button class="favorite">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                    </button>
+                </div>
+                <div class="watch-info">
+                    <div class="watch-details">
+                        <h3>Rolex Datejust- Wimbledon Dial</h3>
+                        <p class="model">Datejust</p>
+                        <p class="reference-number">126233</p>
+                    </div>
+                    <p class="price">$14,495</p>
+                </div>
+                <div class="actions">
+                    <button class="buy">Buy Now</button>
+                    <button class="addtocart">Add to Cart</button>
+                </div>
+            </div>
+             <div class="watch-card" data-model="Datejust">
+                <div class="watch-image">
+                    <img src="images/rolex img/3.jpg" alt="Rolex Datejust- Wimbledon Dial">
+                    <span class="badge limited">Limited Edition</span>
+                    <button class="favorite">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                    </button>
+                </div>
+                <div class="watch-info">
+                    <div class="watch-details">
+                        <h3>Rolex Datejust- Wimbledon Dial</h3>
+                        <p class="model">Datejust</p>
+                        <p class="reference-number">126234</p>
+                    </div>
+                    <p class="price">$13,495</p>
+                </div>
+                <div class="actions">
+                    <button class="buy">Buy Now</button>
+                    <button class="addtocart">Add to Cart</button>
+                </div>
+            </div>
+             <div class="watch-card" data-model="Datejust">
+                <div class="watch-image">
+                    <img src="images/rolex img/4.jpg" alt="Rolex Datejust 41 -Silver Dial">
+                    <span class="badge limited">Limited Edition</span>
+                    <button class="favorite">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                    </button>
+                </div>
+                <div class="watch-info">
+                    <div class="watch-details">
+                        <h3>Rolex Datejust 41 -Silver Dial</h3>
+                        <p class="model">Datejust</p>
+                        <p class="reference-number">126333</p>
+                    </div>
+                    <p class="price">$14,495</p>
+                </div>
+                <div class="actions">
+                    <button class="buy">Buy Now</button>
+                    <button class="addtocart">Add to Cart</button>
+                </div>
+            </div>
+             <div class="watch-card">
+                <div class="watch-image">
+                    <img src="images/rolex img/5.jpg" alt="Rolex Datejust 41 -Everose">
+                    <span class="badge limited">Limited Edition</span>
+                    <button class="favorite">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                    </button>
+                </div>
+                <div class="watch-info" data-model="Datejust">
+                    <div class="watch-details">
+                        <h3>Rolex Datejust 41 -Everose</h3>
+                        <p class="model">Datejust</p>
+                        <p class="reference-number">126301</p>
+                    </div>
+                    <p class="price">$14,295</p>
+                </div>
+                <div class="actions">
+                    <button class="buy">Buy Now</button>
+                    <button class="addtocart">Add to Cart</button>
+                </div>
+            </div>
+             <div class="watch-card">
+                <div class="watch-image">
+                    <img src="images/rolex img/6.jpg" alt="Rolex Datejust 41 -Silver Dial">
+                    <span class="badge limited">Limited Edition</span>
+                    <button class="favorite">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                    </button>
+                </div>
+                <div class="watch-info" data-model="Datejust">
+                    <div class="watch-details">
+                        <h3>Rolex Datejust 41 -Silver Dial</h3>
+                        <p class="model">Datejust</p>
+                        <p class="reference-number">126334</p>
+                    </div>
+                    <p class="price">$11,995</p>
+                </div>
+                <div class="actions">
+                    <button class="buy">Buy Now</button>
+                    <button class="addtocart">Add to Cart</button>
+                </div>
+             </div>
+             <div class="watch-card">
+                <div class="watch-image">
+                    <img src="images/rolex img/7.avif" alt="Rolex GMT-Master - Stainless Steel Oyster">
+                    <span class="badge limited">Limited Edition</span>
+                    <button class="favorite">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                    </button>
+                </div>
+                <div class="watch-info" data-model="GMT-Master">
+                    <div class="watch-details">
+                      <h3>Rolex GMT-Master - Stainless Steel Oyster</h3>
+                      <p class="model">GMT-Master II</p>
+                      <p class="reference-number">26720VTNR</p>
+                    </div>
+                    <p class="price">$16,895</p>
+                </div>
+                <div class="actions">
+                    <button class="buy">Buy Now</button>
+                    <button class="addtocart">Add to Cart</button>
+                </div>
+             </div>
+             <div class="watch-card" data-model="GMT-Master">
+                <div class="watch-image">
+                    <img src="images/rolex img/8.jpg" alt="Rolex GMT-Master - Batgirl Jubilee">
+                    <span class="badge limited">Limited Edition</span>
+                    <button class="favorite">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                    </button>
+                </div>
+                <div class="watch-info">
+                    <div class="watch-details">
+                      <h3>Rolex GMT-Master - Batgirl Jubilee</h3>
+                      <p class="model">GMT-Master II</p>
+                      <p class="reference-number">126710</p>
+                    </div>
+                    <p class="price">$17,495</p>
+                </div>
+                <div class="actions">
+                    <button class="buy">Buy Now</button>
+                    <button class="addtocart">Add to Cart</button>
+                </div>
+             </div>
+            <div class="watch-card" data-model="Daytona">
+              <div class="watch-image">
+                  <img src="images/rolex img/9.jpg" alt="Rolex Cosmograph Daytona - Champagne Dial">
+                  <span class="badge limited">Limited Edition</span>
+                  <button class="favorite">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                  </button>
+              </div>
+              <div class="watch-info">
+                  <div class="watch-details">
+                    <h3>Rolex Cosmograph Daytona - Champagne Dial</h3>
+                    <p class="model">Daytona</p>
+                    <p class="reference-number">116503</p>
+                  </div>
+                  <p class="price">$21,995</p>
+              </div>
+              <div class="actions">
+                  <button class="buy">Buy Now</button>
+                  <button class="addtocart">Add to Cart</button>
+              </div>
+           </div>
+          <div class="watch-card" data-model="Datejust">
+            <div class="watch-image">
+                <img src="images/rolex img/10.jpg" alt="Rolex Datejust - White Dial">
+                <span class="badge limited">Limited Edition</span>
+                <button class="favorite">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                </button>
+            </div>
+            <div class="watch-info">
+                <div class="watch-details">
+                  <h3>Rolex Datejust - White Dial</h3>
+                  <p class="model">Datejust</p>
+                  <p class="reference-number">126233</p>
+                </div>
+                <p class="price">$12,995</p>
+            </div>
+            <div class="actions">
+                <button class="buy">Buy Now</button>
+                <button class="addtocart">Add to Cart</button>
+            </div>
+           </div>
+          <div class="watch-card" data-model="Day-Date">
+            <div class="watch-image">
+                <img src="images/rolex img/11.jpg" alt="Rolex Day-Date President - Blue Diamond Dial">
+                <span class="badge limited">Limited Edition</span>
+                <button class="favorite">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                </button>
+            </div>
+            <div class="watch-info">
+                <div class="watch-details">
+                  <h3>Rolex Day-Date President - Blue Diamond Dial</h3>
+                  <p class="model">Day-Date</p>
+                  <p class="reference-number">128239</p>
+                </div>
+                <p class="price">$36,495</p>
+            </div>
+            <div class="actions">
+                <button class="buy">Buy Now</button>
+                <button class="addtocart">Add to Cart</button>
+            </div>
+          </div>
+          <div class="watch-card" data-model="Datejust">
+            <div class="watch-image">
+                <img src="images/rolex img/12.jpg" alt="Rolex Datejust 36 - Silver">
+                <span class="badge limited">Limited Edition</span>
+                <button class="favorite">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                </button>
+            </div>
+            <div class="watch-info">
+                <div class="watch-details">
+                  <h3>Rolex Datejust 36 - Silver</h3>
+                  <p class="model">Datejust</p>
+                  <p class="reference-number">1601</p>
+                </div>
+                <p class="price">$5,995</p>
+            </div>
+            <div class="actions">
+                <button class="buy">Buy Now</button>
+                <button class="addtocart">Add to Cart</button>
+            </div>
+          </div>
+          <div class="watch-card" data-model="Day-Date">
+            <div class="watch-image">
+                <img src="images/rolex img/13.avif" alt="Rolex Day-Date - White Gold">
+                <span class="badge limited">Limited Edition</span>
+                <button class="favorite">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                </button>
+            </div>
+            <div class="watch-info">
+                <div class="watch-details">
+                  <h3>Rolex Day-Date - White Gold</h3>
+                  <p class="model">Day-Date</p>
+                  <p class="reference-number">218239</p>
+                </div>
+                <p class="price">$33,495</p>
+            </div>
+            <div class="actions">
+                <button class="buy">Buy Now</button>
+                <button class="addtocart">Add to Cart</button>
+            </div>
+          </div>
+          <div class="watch-card" data-model="Submariner"> 
+            <div class="watch-image">
+                <img src="images/rolex img/14.jpg" alt="Rolex Submariner - Stainless Steel">
+                <span class="badge limited">Limited Edition</span>
+                <button class="favorite">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                </button>
+            </div>
+            <div class="watch-info">
+                <div class="watch-details">
+                  <h3>Rolex Submariner - Stainless Steel</h3>
+                  <p class="model">Submariner</p>
+                  <p class="reference-number">126610LV</p>
+                </div>
+                <p class="price">$16,395</p>
+            </div>
+            <div class="actions">
+                <button class="buy">Buy Now</button>
+                <button class="addtocart">Add to Cart</button>
+            </div>
+          </div>
+          <div class="watch-card" data-model="Submariner">
+            <div class="watch-image">
+                <img src="images/rolex img/15.jpg" alt="Rolex Submariner - Stainless Steel">
+                <span class="badge limited">Limited Edition</span>
+                <button class="favorite">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                </button>
+            </div>
+            <div class="watch-info">
+                <div class="watch-details">
+                  <h3>Rolex Submariner - Stainless Steel</h3>
+                  <p class="model">Submariner</p>
+                  <p class="reference-number">126610</p>
+                </div>
+                <p class="price">$14,595</p>
+            </div>
+            <div class="actions">
+                <button class="buy">Buy Now</button>
+                <button class="addtocart">Add to Cart</button>
+            </div>
+          </div>
+          <div class="watch-card" data-model="Sea-Dweller">
+            <div class="watch-image">
+                <img src="images/rolex img/16.avif" alt="Rolex Sea-Dweller - Ceremic Bezel">
+                <span class="badge limited">Limited Edition</span>
+                <button class="favorite">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                </button>
+            </div>
+            <div class="watch-info">
+                <div class="watch-details">
+                  <h3>Rolex Sea-Dweller - Ceremic Bezel</h3>
+                  <p class="model">Sea-Dweller</p>
+                  <p class="reference-number">126650</p>
+                </div>
+                <p class="price">$13,995</p>
+            </div>
+            <div class="actions">
+                <button class="buy">Buy Now</button>
+                <button class="addtocart">Add to Cart</button>
+            </div>
+          </div>
+          <div class="watch-card" data-model="Submariner">
+            <div class="watch-image">
+                <img src="images/rolex img/17.jpg" alt="Rolex Submariner - Blue Dial">
+                <span class="badge limited">Limited Edition</span>
+                <button class="favorite">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                </button>
+            </div>
+            <div class="watch-info">
+                <div class="watch-details">
+                  <h3>Rolex Submariner - Blue Dial</h3>
+                  <p class="model">Submariner</p>
+                  <p class="reference-number">126613</p>
+                </div>
+                <p class="price">$18,995</p>
+            </div>
+            <div class="actions">
+                <button class="buy">Buy Now</button>
+                <button class="addtocart">Add to Cart</button>
+            </div>
+          </div>
+          <div class="watch-card" data-model="Submariner">
+            <div class="watch-image">
+                <img src="images/rolex img/18.jpg" alt="Rolex Vintage Submariner - Stainless Steel">
+                <span class="badge limited">Limited Edition</span>
+                <button class="favorite">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                </button>
+            </div>
+            <div class="watch-info">
+                <div class="watch-details">
+                  <h3>Rolex Vintage Submariner - Stainless Steel</h3>
+                  <p class="model">Submariner</p>
+                  <p class="reference-number">5512</p>
+                </div>
+                <p class="price">$36,995</p>
+            </div>
+            <div class="actions">
+                <button class="buy">Buy Now</button>
+                <button class="addtocart">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+    </div>
+    <footer class="footer2"> 
+        <div class="footer-column"> 
+           <h3 style="color: rgb(209, 204, 204);">Customer care</h3> 
+           <ul> 
+               <li><a href="#">How to buy?</a></li> 
+               <li><a href="#">Help center</a></li> 
+               <li><a href="#">Contact us</a></li> 
+           </ul> 
+       </div> 
+       <div class="footer-column"> 
+           <h3 style="color: rgb(209, 204, 204);">Chronos</h3> 
+           <ul> 
+               <li><a href="aboutus.html">About us</a></li>
+               <li><a href="#">Privacy policy</a></li> 
+               <li><a href="#">Career</a></li> 
+               <li><a href="#">Blog</a></li> 
+               <li><a href="#">Terms & Conditions</a></li> 
+           </ul> 
+       </div> 
+       <div class="footer-column">
+            <h3 style="color: rgb(209, 204, 204);">Services</h3> 
+            <ul> 
+               <li><a href="#">Find store</a></li> 
+               <li><a href="#">Locate me</a></li> 
+               <li><a href="#">Watch finder</a></li> 
+           </ul> 
+       </div>
+        </footer>
+        
+        <footer>
+            &copy; 2025 Chronos. All rights reserved.
+        </footer>
+    <script src="script/index.js"></script>
+        <script src="script/product.js"></script>
+        <script src="script/productdetail.js"></script>
+</body>
+</html>

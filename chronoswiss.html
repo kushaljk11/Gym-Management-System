@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/c18b7bd86a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/chronoswiss.css">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Chronoswiss Collection</title>
+</head>
+<body>
+    <div class="main">
+        <header>
+            <button class="menu-toggle" onclick="toggleMenu()">
+                <i class="fas fa-bars"></i>
+            </button>
+    
+            <div class="logo">
+                <img src="pic/fulllogoo.png"  href="index.html" alt="Logo">
+            </div>
+            <!-- <div class="search-icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="login-icon">
+                <i class="fas fa-user"></i>
+            </div>
+            <div class="globe-icon">
+                <i class="fa-solid fa-globe"></i>
+            </div> -->
+            <div class="cart-icon">
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+            <div class="wishlist-icon">
+                <i class="fa-regular fa-heart"></i>
+            </div>
+            
+            <div class="menu" id="menubar">
+                <div class="menu-header">
+                    <button class="close-btn" onclick="toggleMenu()">
+                        <i class="fa-solid fa-xmark"></i>
+                        
+                    </button>
+                </div>
+
+                <div class="menu-content">
+                    <button class="menu-item"><a href="index.html">Home</a></button>
+                    <button class="menu-item"> <a href="product.html">Product</a></button>
+                    <button class="menu-item"><a href="Blog.html">Blog</a></button>
+                    <button class="menu-item"><a href="research.html">Research</a></button>
+                    <button class="menu-item"><a href="aboutus.html">About Us</a></button>
+                </div>
+            </div>
+        </header>
+    </div>
+
+    <div class="container">
+        <h2 class="wheading">Find your Chronoswiss</h2>
+        <div class="filters">
+            <div class="search-wrapper">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+                <input type="text" placeholder="Search watches...">
+            </div>
+            
+            <div class="filter-controls">
+                <button class="filter-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="21" x2="3" y1="4" y2="4"/><line x1="13" x2="3" y1="12" y2="12"/><line x1="21" x2="3" y1="20" y2="20"/></svg>
+                    Filters
+                </button>
+                <select id="model-select">
+                    <option>All Collections</option>
+                    <option>Strike</option>
+                    <option>AREA 51</option>
+                    <option>Tourbillon</option>
+                    <option>Delphis</option>
+                    <option>Space Timer</option>
+                    <option>Open Gear</option>
+                    <option>Gondolo</option>
+                    <option>Calatrava</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="watch-grid">
+            <div class="watch-card" data-model="Strike">
+                <div class="watch-image">
+                    <a href="chronoswissdescp.html">
+                    <img src="images/chronoswiss/1.png" alt="Strike Two Terra">
+                    <span class="badge limited">Limited Edition</span>
+                    <button class="favorite">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                    </button>
+                </a>
+                </div>
+                <div class="watch-info">
+                    <div class="watch-details">
+                        <h3>Strike Two Terra</h3>
+                        <p class="model">Strike</p>
+                        <p class="reference-number">CH-5023-BRSI</p>
+                    </div>
+                    <p class="price">10'800 EUR</p>
+                </div>
+                <div class="actions">
+                    <button class="buy">Buy Now</button>
+                    <button class="addtocart">Add to Cart</button>
+                </div>
+            </div>
+              <div class="watch-card" data-model="Strike">
+                <div class="watch-image">
+                    <img src="images/chronoswiss/2.png" alt="Strike Two Highland">
+                    <span class="badge limited">Limited Edition</span>
+                    <button class="favorite">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                    </button>
+                </div>
+                <div class="watch-info">
+                    <div class="watch-details">
+                        <h3>Patek Philippe Perpetual Calendar</h3>
+                        <p class="model">Strike</p>
+                        <p class="reference-number">CH-5023-GRSI</p>
+                    </div>
+                    <p class="price">10'800 EUR</p>
+                </div>
+                <div class="actions">
+                    <button class="buy">Buy Now</button>
+                    <button class="addtocart">Add to Cart</button>
+                </div>
+            </div>
+             <div class="watch-card" data-model="Strike">
+                <div class="watch-image">
+                    <img src="images/chronoswiss/3.png" alt="Strike Two H2O">
+                    <span class="badge limited">Limited Edition</span>
+                    <button class="favorite">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                    </button>
+                </div>
+                <div class="watch-info">
+                    <div class="watch-details">
+                        <h3>Strike Two H2O</h3>
+                        <p class="model">Strike</p>
+                        <p class="reference-number">CH-5023-BLSI</p>
+                    </div>
+                    <p class="price">10'800 EUR</p>
+                </div>
+                <div class="actions">
+                    <button class="buy">Buy Now</button>
+                    <button class="addtocart">Add to Cart</button>
+                </div>
+            </div>
+             <div class="watch-card" data-model="AREA 51">
+                <div class="watch-image">
+                    <img src="images/chronoswiss/4.png" alt="Delphis Firestarter">
+                    <span class="badge limited">Limited Edition</span>
+                    <button class="favorite">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                    </button>
+                </div>
+                <div class="watch-info" data-model="AREA 51">
+                    <div class="watch-details">
+                        <h3>Delphis Firestarter</h3>
+                        <p class="model">AREA 51</p>
+                        <p class="reference-number">CH-1429RE.1E-BKRE</p>
+                    </div>
+                    <p class="price">41'800 EUR</p>
+                </div>
+                <div class="actions">
+                    <button class="buy">Buy Now</button>
+                    <button class="addtocart">Add to Cart</button>
+                </div>
+            </div>
+            <div class="watch-card" data-model="Tourbillon">
+                <div class="watch-image">
+                    <img src="images/chronoswiss/5.png" alt="Open Gear Flying Tourbillon Psycho">
+                    <span class="badge limited">Limited Edition</span>
+                    <button class="favorite">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                    </button>
+                </div>
+                <div class="watch-info">
+                    <div class="watch-details">
+                        <h3>Open Gear Flying Tourbillon Psycho</h3>
+                        <p class="model">Tourbillon</p>
+                        <p class="reference-number">CH-3128-COL</p>
+                    </div>
+                    <p class="price">48'600 EUR</p>
+                </div>
+                <div class="actions">
+                    <button class="buy">Buy Now</button>
+                    <button class="addtocart">Add to Cart</button>
+                </div>
+            </div>
+             <div class="watch-card" data-model="Tourbillon">
+                <div class="watch-image">
+                    <img src="images/chronoswiss/6.webp" alt="Open Gear Flying Tourbillon Sunset">
+                    <span class="badge limited">Limited Edition</span>
+                    <button class="favorite">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                    </button>
+                </div>
+                <div class="watch-info">
+                    <div class="watch-details">
+                        <h3>Open Gear Flying Tourbillon Sunset</h3>
+                        <p class="model">Tourbillon</p>
+                        <p class="reference-number">CH-3123-ORBL</p>
+                    </div>
+                    <p class="price">46'400 EUR</p>
+                </div>
+                <div class="actions">
+                    <button class="buy">Buy Now</button>
+                    <button class="addtocart">Add to Cart</button>
+                </div>
+            </div>
+             <div class="watch-card" data-model="Tourbillon">
+                <div class="watch-image">
+                    <img src="images/chronoswiss/7.webp" alt="Open Gear Flying Tourbillon Underworld">
+                    <span class="badge limited">Limited Edition</span>
+                    <button class="favorite">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                    </button>
+                </div>
+                <div class="watch-info">
+                    <div class="watch-details">
+                        <h3>Open Gear Flying Tourbillon Underworld</h3>
+                        <p class="model">Tourbillon</p>
+                        <p class="reference-number">CH-3123-BKPU</p>
+                    </div>
+                    <p class="price">46'400 EUR</p>
+                </div>
+                <div class="actions">
+                    <button class="buy">Buy Now</button>
+                    <button class="addtocart">Add to Cart</button>
+                </div>
+            </div>
+             <div class="watch-card" data-model="Delphis">
+                <div class="watch-image">
+                    <img src="images/chronoswiss/8.png" alt="Delphis Dracula">
+                    <span class="badge limited">Limited Edition</span>
+                    <button class="favorite">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                    </button>
+                </div>
+                <div class="watch-info">
+                    <div class="watch-details">
+                        <h3>Delphis Dracula</h3>
+                        <p class="model">Delphis</p>
+                        <p class="reference-number">CH-1421.1E-BKRE</p>
+                    </div>
+                    <p class="price">41'800 EUR</p>
+                </div>
+                <div class="actions">
+                    <button class="buy">Buy Now</button>
+                    <button class="addtocart">Add to Cart</button>
+                </div>
+            </div>
+            <div class="watch-card" data-model="Delphis">
+              <div class="watch-image">
+                  <img src="images/chronoswiss/9.png" alt="Delphis Horizon">
+                  <span class="badge limited">Limited Edition</span>
+                  <button class="favorite">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                  </button>
+              </div>
+              <div class="watch-info">
+                  <div class="watch-details">
+                      <h3>Delphis Horizon</h3>
+                      <p class="model">Delphis</p>
+                      <p class="reference-number">CH-1423T.1E-BKHB</p>
+                  </div>
+                  <p class="price">21'800 EUR</p>
+              </div>
+              <div class="actions">
+                  <button class="buy">Buy Now</button>
+                  <button class="addtocart">Add to Cart</button>
+              </div>
+          </div>
+          <div class="watch-card" data-model="Delphis">
+            <div class="watch-image">
+                <img src="images/chronoswiss/10.png" alt="Delphis Sub Zero">
+                <span class="badge limited">Limited Edition</span>
+                <button class="favorite">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                </button>
+            </div>
+            <div class="watch-info">
+                <div class="watch-details">
+                    <h3>Delphis Sub Zero</h3>
+                    <p class="model">Delphis</p>
+                    <p class="reference-number">CH-1426.1-BKSI</p>
+                </div>
+                <p class="price">18'400 EUR</p>
+            </div>
+            <div class="actions">
+                <button class="buy">Buy Now</button>
+                <button class="addtocart">Add to Cart</button>
+            </div>
+          </div>
+           <div class="watch-card" data-model="Space Timer">
+            <div class="watch-image">
+                <img src="images/chronoswiss/11.png" alt="Space Timer Supernova">
+                <span class="badge limited">Limited Edition</span>
+                <button class="favorite">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                </button>
+            </div>
+            <div class="watch-info">
+                <div class="watch-details">
+                    <h3>Space Timer Supernova</h3>
+                    <p class="model">Space Timer</p>
+                    <p class="reference-number">CH-9343M.2-SIBK</p>
+                </div>
+                <p class="price">23'400 EUR</p>
+            </div>
+            <div class="actions">
+                <button class="buy">Buy Now</button>
+                <button class="addtocart">Add to Cart</button>
+            </div>
+          </div>
+           <div class="watch-card" data-model="Space Timer">
+            <div class="watch-image">
+                <img src="images/chronoswiss/12.png" alt="Space Timer Black Hole">
+                <span class="badge limited">Limited Edition</span>
+                <button class="favorite">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                </button>
+            </div>
+            <div class="watch-info">
+                <div class="watch-details">
+                    <h3>Space Timer Black Hole</h3>
+                    <p class="model">Space Timer</p>
+                    <p class="reference-number">CH-9345M.2-GRBK</p>
+                </div>
+                <p class="price">20'600 EUR</p>
+            </div>
+            <div class="actions">
+                <button class="buy">Buy Now</button>
+                <button class="addtocart">Add to Cart</button>
+            </div>
+          </div>
+          <div class="watch-card" data-model="Open Gear">
+            <div class="watch-image">
+                <img src="images/chronoswiss/13.png" alt="ReSec Helium Manufacture">
+                <span class="badge limited">Limited Edition</span>
+                <button class="favorite">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                </button>
+            </div>
+            <div class="watch-info">
+                <div class="watch-details">
+                    <h3>ReSec Helium Manufacture</h3>
+                    <p class="model">Open Gear</p>
+                    <p class="reference-number">CH-6923TM.1-ORBL</p>
+                </div>
+                <p class="price">15'300 EUR</p>
+            </div>
+            <div class="actions">
+                <button class="buy">Buy Now</button>
+                <button class="addtocart">Add to Cart</button>
+            </div>
+          </div>
+          <div class="watch-card" data-model="Calatrava">
+            <div class="watch-image">
+                <img src="images/chronoswiss/14.webp" alt="SkelTec Azur">
+                <span class="badge limited">Limited Edition</span>
+                <button class="favorite">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                </button>
+            </div>
+            <div class="watch-info">
+                <div class="watch-details">
+                    <h3>SkelTec Azur </h3>
+                    <p class="model">Calatrava</p>
+                    <p class="reference-number">CH-3718-BKBLB</p>
+                </div>
+                <p class="price">24'700 EUR</p>
+            </div>
+            <div class="actions">
+                <button class="buy">Buy Now</button>
+                <button class="addtocart">Add to Cart</button>
+            </div>
+          </div>
+           <div class="watch-card" data-model="Gondolo">
+            <div class="watch-image">
+                <img src="images/chronoswiss/15.webp" alt="Opus Chronograph">
+                <span class="badge limited">Limited Edition</span>
+                <button class="favorite">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                </button>
+            </div>
+            <div class="watch-info">
+                <div class="watch-details">
+                    <h3>Opus Chronograph </h3>
+                    <p class="model">Gondolo</p>
+                    <p class="reference-number">CH-7543.1S-BLSI</p>
+                </div>
+                <p class="price">14'200 EUR</p>
+            </div>
+            <div class="actions">
+                <button class="buy">Buy Now</button>
+                <button class="addtocart">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+    </div>
+    <footer class="footer2"> 
+        <div class="footer-column"> 
+           <h3 style="color: rgb(209, 204, 204);">Customer care</h3> 
+           <ul> 
+               <li><a href="#">How to buy?</a></li> 
+               <li><a href="#">Help center</a></li> 
+               <li><a href="#">Contact us</a></li> 
+           </ul> 
+       </div> 
+       <div class="footer-column"> 
+           <h3 style="color: rgb(209, 204, 204);">Chronos</h3> 
+           <ul> 
+               <li><a href="aboutus.html">About us</a></li>
+               <li><a href="#">Privacy policy</a></li> 
+               <li><a href="#">Career</a></li> 
+               <li><a href="#">Blog</a></li> 
+               <li><a href="#">Terms & Conditions</a></li> 
+           </ul> 
+       </div> 
+       <div class="footer-column">
+            <h3 style="color: rgb(209, 204, 204);">Services</h3> 
+            <ul> 
+               <li><a href="#">Find store</a></li> 
+               <li><a href="#">Locate me</a></li> 
+               <li><a href="#">Watch finder</a></li> 
+           </ul> 
+       </div>
+        </footer>
+        
+        <footer>
+            &copy; 2025 Chronos. All rights reserved.
+        </footer>
+    <script src="script/product.js"></script>
+    <script src="script/index.js"></script>
+</body>
+</html>

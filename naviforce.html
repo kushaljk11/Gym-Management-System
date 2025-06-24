@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/c18b7bd86a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/naviforce2.css">
+    <link rel="stylesheet" href="css/index.css">
+    <title>NaviForce Collection</title>
+</head>
+<body>
+    <div class="main">
+        <header>
+            <button class="menu-toggle" onclick="toggleMenu()">
+                <i class="fas fa-bars"></i>
+            </button>
+    
+            <div class="logo">
+                <img src="pic/fulllogoo.png"  href="index.html" alt="Logo">
+            </div>
+            <!-- <div class="search-icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="login-icon">
+                <i class="fas fa-user"></i>
+            </div>
+            <div class="globe-icon">
+                <i class="fa-solid fa-globe"></i>
+            </div> -->
+            <div class="cart-icon">
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+            <div class="wishlist-icon">
+                <i class="fa-regular fa-heart"></i>
+            </div>
+            
+            <div class="menu" id="menubar">
+                <div class="menu-header">
+                    <button class="close-btn" onclick="toggleMenu()">
+                        <i class="fa-solid fa-xmark"></i>
+                        
+                    </button>
+                </div>
+
+                <div class="menu-content">
+                    <button class="menu-item"><a href="index.html">Home</a></button>
+                    <button class="menu-item"> <a href="product.html">Product</a></button>
+                    <button class="menu-item"><a href="Blog.html">Blog</a></button>
+                    <button class="menu-item"><a href="research.html">Research</a></button>
+                    <button class="menu-item"><a href="aboutus.html">About Us</a></button>
+                </div>
+            </div>
+        </header>
+    </div>
+
+    <div class="container">
+        <h2 class="wheading">Find your Naviforce</h2>
+        <div class="filters">
+            <div class="search-wrapper">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+                <input type="text" placeholder="Search watches...">
+            </div>
+            
+            <div class="filter-controls">
+                <button class="filter-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="21" x2="3" y1="4" y2="4"/><line x1="13" x2="3" y1="12" y2="12"/><line x1="21" x2="3" y1="20" y2="20"/></svg>
+                    Filters
+                </button>
+                <select id="model-select">
+                    <option>All Collections</option>
+                    <option>Date</option>
+                    <option>Chronograph</option>
+                    <option>Dual Time</option>
+                    <option> Bond Chrono</option>
+                    <option>Dual Master</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="watch-grid">
+            <div class="watch-card" data-model="Chronograph">
+          <div class="watch-image">
+            <a href="naviforcedescp.html">
+                    <img src="images/naviforce/1.webp" alt="Naviforce NF 8049 Chrono Pioneer Watch">
+                    <span class="badge limited">Limited Edition</span>
+                    <button class="favorite">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                    </button>
+                </a>
+                </div>
+                <div class="watch-info">
+                    <div class="watch-details">
+                        <h3>Naviforce NF 8049 Chrono Pioneer Watch</h3>
+                        <p class="description">Chrono Pioneer Watch</p>
+                        <p class="reference-number">NF-8049-3</p>
+                    </div>
+                    <p class="price">₨6,350</p>
+                </div>
+                <div class="actions">
+                    <button class="buy">Buy Now</button>
+                    <button class="addtocart">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="watch-card" data-model="Date">
+                <div class="watch-image">
+                    <img src="images/naviforce/2nd.jpg" alt="Naviforce NF9211 Novicius Edition For Men">
+                    <button class="favorite">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                    </button>
+                </div>
+                <div class="watch-info">
+                    <div class="watch-details">
+                        <h3>Naviforce NF9211 Novicius Edition For Men</h3>
+                        <p class="description">Novicius Edition For Men</p>
+                        <p class="reference-number">NF-9211-14</p>
+                    </div>
+                    <p class="price">₨5,875</p>
+                </div>
+                <div class="actions">
+                    <button class="buy">Buy Now</button>
+                    <button class="addtocart">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="watch-card" data-model="Date">
+                <div class="watch-image">
+                    <img src="images/naviforce/3rd.webp" alt="Naviforce NF-9214 Exclusive Date Edition">
+                    <span class="badge new">New</span>
+                    <button class="favorite">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                    </button>
+                </div>
+                <div class="watch-info">
+                    <div class="watch-details">
+                        <h3>Naviforce NF-9214 Exclusive Date Edition</h3>
+                        <p class="description">Exclusive Date Edition</p>
+                        <p class="reference-number">NF-9214-2</p>
+                    </div>
+                    <p class="price">$25,200</p>
+                </div>
+                <div class="actions">
+                    <button class="buy">Buy Now</button>
+                    <button class="addtocart">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="watch-card" data-model="Chronograph">
+                <div class="watch-image">
+                    <img src="images/naviforce/4th.jpg" alt="Naviforce Nf8048 Bond Chrono For Women">
+                    <span class="badge limited">Limited Edition</span>
+                    <button class="favorite">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                    </button>
+                </div>
+                <div class="watch-info">
+                    <div class="watch-details">
+                        <h3>Naviforce Nf8048 Bond Chrono For Women</h3>
+                        <p class="description">Bond Chrono For Women</p>
+                        <p class="reference-number">nf-8048l-3</p>
+                    </div>
+                    <p class="price">₨6,150</p>
+                </div>
+                <div class="actions">
+                    <button class="buy">Buy Now</button>
+                    <button class="addtocart">Add to Cart</button>
+                </div>
+            </div>
+            <div class="watch-card" data-model="Dual Time">
+              <div class="watch-image">
+                  <img src="images/naviforce/5th.webp" alt="Naviforce NF 9225 Dual Time Editon">
+                  <span class="badge limited">Limited Edition</span>
+                  <button class="favorite">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                  </button>
+              </div>
+              <div class="watch-info">
+                  <div class="watch-details">
+                      <h3>Naviforce NF 9225 Dual Time Editon</h3>
+                      <p class="description">Dual Time Editon</p>
+                      <p class="reference-number">NF-9225-7</p>
+                  </div>
+                  <p class="price">₨6,188</p>
+              </div>
+              <div class="actions">
+                  <button class="buy">Buy Now</button>
+                  <button class="addtocart">Add to Cart</button>
+              </div>
+          </div>
+          <div class="watch-card" data-model="Dual Time">
+            <div class="watch-image">
+                <img src="images/naviforce/6ht.jpg" alt="Naviforce 9216T Dual Time Edition">
+                <span class="badge limited">Limited Edition</span>
+                <button class="favorite">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                </button>
+            </div>
+            <div class="watch-info">
+                <div class="watch-details">
+                    <h3>Naviforce 9216T Dual Time Edition</h3>
+                    <p class="description">Dual Time Edition</p>
+                    <p class="reference-number">NF-9216t-1</p>
+                </div>
+                <p class="price">₨6,275</p>
+            </div>
+            <div class="actions">
+                <button class="buy">Buy Now</button>
+                <button class="addtocart">Add to Cart</button>
+            </div>
+        </div>
+        <div class="watch-card" >
+          <div class="watch-image">
+              <img src="images/naviforce/7th.webp" alt="Naviforce NF9210 Novel Watch">
+              <span class="badge limited">Limited Edition</span>
+              <button class="favorite">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              </button>
+          </div>
+          <div class="watch-info">
+              <div class="watch-details">
+                  <h3>Naviforce NF9210 Novel Watch</h3>
+                  <p class="description">Novel Watch</p>
+                  <p class="reference-number">nf-9210-4</p>
+              </div>
+              <p class="price">₨5,230</p>
+          </div>
+          <div class="actions">
+              <button class="buy">Buy Now</button>
+              <button class="addtocart">Add to Cart</button>
+          </div>
+      </div>
+      <div class="watch-card">
+        <div class="watch-image">
+            <img src="images/naviforce/8th.webp" alt="Naviforce NF 9231 Pursuit Chronograph">
+            <span class="badge limited">Limited Edition</span>
+            <button class="favorite">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            </button>
+        </div>
+        <div class="watch-info">
+            <div class="watch-details">
+                <h3>Naviforce NF 9231 Pursuit Chronograph</h3>
+                <p class="description">Pursuit Chronograph</p>
+                <p class="reference-number">nf-9231-4</p>
+            </div>
+            <p class="price">₨5,775</p>
+        </div>
+        <div class="actions">
+            <button class="buy">Buy Now</button>
+            <button class="addtocart">Add to Cart</button>
+        </div>
+      </div>
+      <div class="watch-card">
+        <div class="watch-image">
+            <img src="images/naviforce/9th.jpg" alt="Naviforce Executive Date 9200 Edition">
+            <span class="badge limited">Limited Edition</span>
+            <button class="favorite">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            </button>
+        </div>
+        <div class="watch-info">
+            <div class="watch-details">
+                <h3>Naviforce Executive Date 9200 Edition</h3>
+                <p class="description"> Date 9200 Edition</p>
+                <p class="reference-number">NF-9200-2</p>
+            </div>
+            <p class="price">₨5,425</p>
+        </div>
+        <div class="actions">
+            <button class="buy">Buy Now</button>
+            <button class="addtocart">Add to Cart</button>
+        </div>
+      </div>
+      <div class="watch-card">
+        <div class="watch-image">
+            <img src="images/naviforce/10.jpg" alt="Naviforce NF8052 Precision Square Watch">
+            <span class="badge limited">Limited Edition</span>
+            <button class="favorite">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            </button>
+        </div>
+        <div class="watch-info">
+            <div class="watch-details">
+                <h3>Naviforce NF8052 Precision Square Watch</h3>
+                <p class="description">Square Watch</p>
+                <p class="reference-number">NF-8052-1</p>
+            </div>
+            <p class="price">₨6,950</p>
+        </div>
+        <div class="actions">
+            <button class="buy">Buy Now</button>
+            <button class="addtocart">Add to Cart</button>
+        </div>
+      </div>
+      <div class="watch-card">
+        <div class="watch-image">
+            <img src="images/naviforce/11.webp" alt="Naviforce NF-8034 Chronograph Exclusive Edition">
+            <span class="badge limited">Limited Edition</span>
+            <button class="favorite">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            </button>
+        </div>
+        <div class="watch-info">
+            <div class="watch-details">
+                <h3>Naviforce NF-8034 Chronograph Exclusive Edition</h3>
+                <p class="model">Chronograph Exclusive Edition</p>
+                <p class="specs">NF-8052-1</p>
+            </div>
+            <p class="price">₨4,150</p>
+        </div>
+        <div class="actions">
+            <button class="buy">Buy Now</button>
+            <button class="addtocart">Add to Cart</button>
+        </div>
+      </div>
+      <div class="watch-card">
+        <div class="watch-image">
+            <img src="images/naviforce/12.webp" alt="Naviforce DualMaster 9236">
+            <span class="badge limited">Limited Edition</span>
+            <button class="favorite">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            </button>
+        </div>
+        <div class="watch-info">
+            <div class="watch-details">
+                <h3>Naviforce DualMaster 9236</h3>
+                <p class="model">DualMaster </p>
+                <p class="specs">Nf-9236-3</p>
+            </div>
+            <p class="price">₨6,130</p>
+        </div>
+        <div class="actions">
+            <button class="buy">Buy Now</button>
+            <button class="addtocart">Add to Cart</button>
+        </div>
+      </div>
+     </div>
+    </div>
+    <footer class="footer2"> 
+        <div class="footer-column"> 
+           <h3 style="color: rgb(209, 204, 204);">Customer care</h3> 
+           <ul> 
+               <li><a href="#">How to buy?</a></li> 
+               <li><a href="#">Help center</a></li> 
+               <li><a href="#">Contact us</a></li> 
+           </ul> 
+       </div> 
+       <div class="footer-column"> 
+           <h3 style="color: rgb(209, 204, 204);">Chronos</h3> 
+           <ul> 
+               <li><a href="aboutus.html">About us</a></li>
+               <li><a href="#">Privacy policy</a></li> 
+               <li><a href="#">Career</a></li> 
+               <li><a href="#">Blog</a></li> 
+               <li><a href="#">Terms & Conditions</a></li> 
+           </ul> 
+       </div> 
+       <div class="footer-column">
+            <h3 style="color: rgb(209, 204, 204);">Services</h3> 
+            <ul> 
+               <li><a href="#">Find store</a></li> 
+               <li><a href="#">Locate me</a></li> 
+               <li><a href="#">Watch finder</a></li> 
+           </ul> 
+       </div>
+        </footer>
+        
+        <footer>
+            &copy; 2025 Chronos. All rights reserved.
+        </footer>
+    <script src="script/product.js"></script>
+    <script src="script/index.js"></script>
+</body>
+</html>

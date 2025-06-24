@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="https://kit.fontawesome.com/c18b7bd86a.js" crossorigin="anonymous"></script>
+    <title>getintowithus</title>
+</head>
+<body>
+
+    <div class="main">
+        <header>
+            <button class="menu-toggle" onclick="toggleMenu()">
+                <i class="fas fa-bars"></i>
+            </button>
+    
+            <div class="logo">
+                <img src="pic/fulllogoo.png" alt="Logo">
+            </div>
+            <!-- <div class="search-icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="login-icon">
+                <i class="fas fa-user"></i>
+            </div>
+            <div class="globe-icon">
+                <i class="fa-solid fa-globe"></i>
+            </div>
+            <div class="cart-icon">
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+            <div class="wishlist-icon">
+                <i class="fa-regular fa-heart"></i>
+            </div> -->
+            
+            <div class="menu" id="menubar">
+                <div class="menu-header">
+                    <button class="close-btn" onclick="toggleMenu()">
+                        <i class="fa-solid fa-xmark"></i>
+                        
+                    </button>
+                </div>
+
+                <div class="menu-content">
+                    <button class="menu-item"><a href="index.html">Home</a></button>
+                    <button class="menu-item"> <a href="product.html">Product</a></button>
+                    <button class="menu-item"><a href="#">Blog</a></button>
+                    <button class="menu-item"><a href="research.html">Research</a></button>
+                    <button class="menu-item"><a href="aboutus.html">About Us</a></button>
+                </div>
+            </div>
+        </header>
+    </div>
+
+    <style>
+        .image {
+            position: relative;
+            top: 90px;
+            left: 650px;
+            z-index: 1;
+        }
+        .logo {
+            margin-right: 200px;
+        }
+    </style>
+
+    <div class="image">
+        <img src="pic/singlelogo.png" alt="logo" height="150px" width="230px">
+    </div>
+
+    <style>
+        .all {
+            margin-top: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .new {
+            background-color: #f6f6f6;
+            height: 300px;
+            width: 500px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 3px;
+            box-shadow: 0 4px 8px rgba(61, 92, 193, 0.4);
+        }
+
+        .subs:hover{
+            background-color: rgb(134, 21, 21);
+        }
+
+
+        h2 {
+            margin-top: 60px;
+            color: rgb(5, 116, 160);
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        input {
+            width: 300px;
+            height: 26px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+        }
+        .subs {
+            width: 100px;
+            height: 30px;
+            background-color: rgb(5, 116, 160);
+            color: white;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        i {
+            margin-top: 15px;
+        }
+    </style>
+
+<div class="all">
+    <div class="new">
+        <h2>Newsletter</h2>
+        <p style="color: black; font-size: 17px;">Stay up to date with our latest news and product</p>
+        <form>
+        <input type="email" id="email" name="Email" required />
+        <span class="error" id="emailError"></span>
+        <button class="subs" id="Subscribe">Subscribe</button>
+        </form>
+        <i style="color: rgb(76, 75, 75);">Your email is safe with us. We dont spam</i>
+    </div>
+</div>
+</body>
+<script>
+    document.getElementById('Subscribe').addEventListener('click', function() {
+        alert('Subscribed Successfully!');
+    })
+</script>
+<script src="script/index.js"></script>
+
+</html>

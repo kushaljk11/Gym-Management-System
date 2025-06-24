@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/c18b7bd86a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/index.css">
+    <title>chronos.research</title>
+</head>
+<body>
+
+    <div class="main">
+        <header>
+            <button class="menu-toggle" onclick="toggleMenu()">
+                <i class="fas fa-bars"></i>
+            </button>
+    
+            <div class="logo">
+                <img src="pic/fulllogoo.png" alt="Logo">
+            </div>
+            <div class="search-icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="login-icon">
+                <i class="fas fa-user"></i>
+            </div>
+            <div class="globe-icon">
+                <i class="fa-solid fa-globe"></i>
+            </div>
+            
+            <div class="menu" id="menubar">
+                <div class="menu-header">
+                    <button class="close-btn" onclick="toggleMenu()">
+                        <i class="fa-solid fa-xmark"></i>
+                    </button>
+                </div>
+    
+                <div class="menu-content">
+                    <button class="menu-item"><a href="index.html">Home</a></button>
+                    <button class="menu-item"> <a href="product.html">Product</a></button>
+                    <button class="menu-item"><a href="Blog.html">Blog</a></button>
+                    <button class="menu-item"><a href="research.html">Research</a></button>
+                    <button class="menu-item"><a href="aboutus.html">About Us</a></button>
+                </div>
+            </div>
+        </header>
+    </div>
+
+        <style>
+            .intro{
+                text-align: center;
+            }
+        </style>
+
+        <div class="intro">
+        <img src="pic/research-01.jpg" alt="image" width="100%">
+
+        <style>
+            .research {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-evenly;
+                gap: 10px;
+                /* background-color: rgb(117, 113, 113); */
+                font-family: Arial, Helvetica, sans-serif;
+                padding: 20px 0;
+                
+            }
+
+            .wbox {
+                height: 320px;
+                width: 25%;
+                border: none;
+                padding: 30px 0px 15px;
+                margin-top: 30px;
+                text-align: center;
+                background-color: rgb(254, 255, 255);
+                border-radius: 20px;
+                box-shadow: 0 0 10px rgba(32, 30, 30, 0.2);
+            }
+        
+            .ourimg {
+                height: 280px;
+                width: 280px;
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+                margin: 0 auto;
+                border-radius: 4%;
+            }
+        
+            .web h2 {
+                color: #3760B6;
+                margin: 15px 0 5px;
+            }
+            .ourimg:hover {
+                transform: scale(1.07);
+                transition: 0.5s;
+            }
+        </style>
+
+        <div class="research">
+        <div class="wbox">
+            <div class="web">
+                <div class="ourimg" style="background-image: url(pic/omegalogo.jpg);"></div>
+                <h2>Omega</h2>
+            </div>
+        </div>
+    
+        <div class="wbox">
+            <div class="web">
+                <div class="ourimg" style="background-image: url(pic/rolexlogo.jpg);"></div>
+                <h2>Rolex</h2>
+            </div>
+        </div>
+
+        <div class="wbox">
+            <div class="web">
+                <div class="ourimg" style="background-image: url(pic/tissotlogo.svg);"></div>
+                <h2>Tissot</h2>
+            </div>
+        </div>
+    </div>
+
+        <div class="table">
+            <h1>Analysing The Citeria In Table</h1>
+
+                <table>
+                    <thead>
+                        <tr>
+                        <th style="color: rgb(5, 116, 160);">Citeria</th>
+                        <th>Omega</th>
+                        <th>Rolex</th>
+                        <th>Tissot</th>
+                        </tr>
+                    </thead>
+                    
+                    <tbody>
+                        <tr>
+                            <td>Visual Design</td>
+                            <td>Luxurious</td>
+                            <td>Modern design</td>
+                            <td>Dynamic</td>
+                        </tr>
+                        <tr>
+                            <td>User Interface</td>
+                            <td>Simple</td>
+                            <td>Interactive for user</td>
+                            <td>Clean UI easy to navigate</td>
+                        </tr>
+                        <tr>
+                            <td>User Experience</td>
+                            <td>High complex</td>
+                            <td>Friendly </td>
+                            <td>Easy</td>
+                        </tr>
+                        <tr>
+                            <td>Technologies Used</td>
+                            <td>Vue.js, PHP, CDN</td>
+                            <td>HTML5, CSS3, Angular, PHP</td>
+                            <td>React, AJAX, Node.js, CDN</td>
+                        </tr>
+                        <tr>
+                            <td>Navigation Structure</td>
+                            <td>Clean</td>
+                            <td>Interative</td>
+                            <td>Responsive</td>
+                        </tr>
+                        <tr>
+                            <td>Features & Functionality</td>
+                            <td>Favourates</td>
+                            <td>Innovative</td>
+                            <td>Interation</td>
+                        </tr>
+                    </tbody>
+                </table>
+        </div>
+
+        <div class="chronos">
+            <h1>What About Chronos?</h1>
+            <table>
+            <thead>
+                <tr>
+                    <th style="color: rgb(5, 116, 160);">Citeria</th>
+                    <th>Chronos</th>
+                </tr>
+                <tr>
+                    <td>Visual Design</td>
+                    <td>Simple Good</td>
+                </tr>
+
+                <tr>
+                    <td>User Interface</td>
+                    <td>User Friendly</td>
+                </tr>
+                <tr>
+                    <td>User Experience</td>
+                    <td>Easy to use</td>
+                </tr>
+                <tr>
+                    <td>Technologies Used</td>
+                    <td>HTML5, CSS3, JS</td>
+                </tr>
+                <tr>
+                    <td>Navigation Structure</td>
+                    <td>Clean </td>
+                </tr>
+                <tr>
+                    <td>Features & Functionality</td>
+                    <td>Product</td>
+                </tr>
+
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Visual Design</td>
+                    <td>Simple</td>
+                </tr>
+            </tbody>
+
+        </table>
+        </div>
+
+        <style>
+            .Omega {
+                padding: 20px;
+                margin: 120px;
+                width: 1200px;
+                height: 700px;
+                background-color: rgb(208, 224, 224);
+                border-radius: 20px;
+                box-shadow: 0 0 10px rgba(32, 30, 30, 0.5);
+            }
+
+            .ssimg {
+                height: 550px;
+                width: 1100px;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                box-shadow: 0 0 10px rgba(32, 30, 30, 0.5);
+                text-align: center;
+            }            
+
+            .ssimg:hover {
+                transform: scale(0.95);
+                transition: 0.5s;
+            }
+
+
+
+        </style>
+
+        <h1 style="text-align: center; margin-top: 100px; font-size: 50px;">Screenshot with Detailed Analysis</h1>
+        
+        <div class="Omega">
+            <div class="ssimg" style="background-image: url(pic/omegass.png);"></div>
+            <h2 style="text-align: center; font-family: Arial, Helvetica, sans-serif;">Omega</h2>
+            <p style="font-family: Arial, Helvetica, sans-serif;">Omega a great site with a luxurious visual design having responsive UI. It has serif and san-serif fonts present in the webpage that is making the font style awesome with the awesome navigations and menus bar. The navigation bar helps the user or customer to dive into deep about the brands and collection of watches. Going into a product page the product are categories into different collections type. Also talk about the performance it has a high speed performance and is fully responsive over any devices that will use it. At last it combines the different technoloies to make awesome functionality giving the best experience for the user.</p>
+        </div>
+
+        <style>
+            .rolex {
+                padding: 20px;
+                margin: 120px;
+                width: 1200px;
+                height: 700px;
+                background-color: rgb(208, 224, 224);
+                border-radius: 20px;
+                box-shadow: 0 0 10px rgba(32, 30, 30, 0.5);
+            }
+
+            
+        </style>
+
+        <div class="rolex">
+            <div class="ssimg" style="background-image: url(pic/rolexss.png);"></div>
+            <h2 style="text-align: center; font-family: Arial, Helvetica, sans-serif;">Rolex</h2>
+            <p style="font-family: Arial, Helvetica, sans-serif;">Rolex is a great brand with a lots of repuatation in this generation. Like a name it has a great website with a great UI and visual design. The detailed of a product is a website makes the user friendly and unique function on the site. It also provide the user to find the rolex shop near their locality. It also has a latest features where it maintains an official rolex news room where it has features like articles, press release and etc. To get to know about their history rolex even provide the brand's history for the user by getting them invloving on sports and cultural initiatives. Overal it combines different technology giving the awesome function to user.</p>
+        </div>
+
+        <style>
+            .tissot {
+                padding: 20px;
+                margin: 120px;
+                width: 1200px;
+                height: 700px;
+                background-color: rgb(208, 224, 224);
+                border-radius: 20px;
+                box-shadow: 0 0 10px rgba(32, 30, 30, 0.5);
+            }
+
+
+        </style>
+
+        <div class="tissot">
+            <div class="ssimg" style="background-image: url(pic/tissotss.png);"></div>
+            <h2 style="text-align: center; font-family: Arial, Helvetica, sans-serif;">Tissot</h2>
+            <p style="font-family: Arial, Helvetica, sans-serif;">Tissot is an widely knowned watch brand. It is a swiss company brand with a great functionality. It has a good user friendly UI where an simple and unskilled user can easily use the sites which make it a user friendly. It offers diverge range of watches for men and women in the nav section which make a user to navigate very easily. It has a many features like locating the store, customer services and the customer can make a customized watched. It is available for a user accross the different country or region and it is mobile friendly where user can open it from different various devices. </p>
+        </div>
+    </div>
+    <footer class="footer2"> 
+        <div class="footer-column"> 
+           <h3 style="color: rgb(209, 204, 204);">Customer care</h3> 
+           <ul> 
+               <li><a href="#">How to buy?</a></li> 
+               <li><a href="#">Help center</a></li> 
+               <li><a href="#">Contact us</a></li> 
+           </ul> 
+       </div> 
+       <div class="footer-column"> 
+           <h3 style="color: rgb(209, 204, 204);">Chronos</h3> 
+           <ul> 
+               <li><a href="aboutus.html">About us</a></li>
+               <li><a href="#">Privacy policy</a></li> 
+               <li><a href="#">Career</a></li> 
+               <li><a href="#">Blog</a></li> 
+               <li><a href="#">Terms & Conditions</a></li> 
+           </ul> 
+       </div> 
+       <div class="footer-column">
+            <h3 style="color: rgb(209, 204, 204);">Services</h3> 
+            <ul> 
+               <li><a href="#">Find store</a></li> 
+               <li><a href="#">Locate me</a></li> 
+               <li><a href="#">Watch finder</a></li> 
+           </ul> 
+       </div>
+        </footer>
+        
+        <footer>
+            &copy; 2025 Chronos. All rights reserved.
+        </footer>
+
+    <script src="script/index.js"></script>
+</body>
+</html>

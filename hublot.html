@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/c18b7bd86a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/hublot.css">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Hublot Collection</title>
+</head>
+<body>
+    <div class="main">
+        <header>
+            <button class="menu-toggle" onclick="toggleMenu()">
+                <i class="fas fa-bars"></i>
+            </button>
+    
+            <div class="logo">
+                <img src="pic/fulllogoo.png"  href="index.html" alt="Logo">
+            </div>
+            <!-- <div class="search-icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="login-icon">
+                <i class="fas fa-user"></i>
+            </div>
+            <div class="globe-icon">
+                <i class="fa-solid fa-globe"></i>
+            </div> -->
+            <div class="cart-icon">
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+            <div class="wishlist-icon">
+                <i class="fa-regular fa-heart"></i>
+            </div>
+            
+            <div class="menu" id="menubar">
+                <div class="menu-header">
+                    <button class="close-btn" onclick="toggleMenu()">
+                        <i class="fa-solid fa-xmark"></i>
+                        
+                    </button>
+                </div>
+
+                <div class="menu-content">
+                    <button class="menu-item"><a href="index.html">Home</a></button>
+                    <button class="menu-item"> <a href="product.html">Product</a></button>
+                    <button class="menu-item"><a href="Blog.html">Blog</a></button>
+                    <button class="menu-item"><a href="research.html">Research</a></button>
+                    <button class="menu-item"><a href="aboutus.html">About Us</a></button>
+                </div>
+            </div>
+        </header>
+    </div>
+
+    <div class="container">
+        <h2 class="wheading">Find your Hublot</h2>
+        <div class="filters">
+            <div class="search-wrapper">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+                <input type="text" placeholder="Search watches...">
+            </div>
+            
+            <div class="filter-controls">
+                <button class="filter-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="21" x2="3" y1="4" y2="4"/><line x1="13" x2="3" y1="12" y2="12"/><line x1="21" x2="3" y1="20" y2="20"/></svg>
+                    Filters
+                </button>
+                <select id="model-select">
+                    <option>All Collections</option>
+                    <option>Big Bang</option>
+                    <option>Classic Fusion</option>
+                    <option>Spirit of Big Bang</option>
+                    <option>MP Collection</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="watch-grid">
+            <div class="watch-card" data-model="Big Bang">
+                <a href="hublotdescp.html">
+          <div class="watch-image">
+                    <img src="images/hublot/Big-Bang-Tourbillon-Carbon-SR_A-By-Samuel-Ross-44-mm-Soldier-Shot.png" alt="Hublot Big Bang Tourbillon Carbon SR_A by Samuel Ross">
+                    <span class="badge limited">Limited Edition</span>
+                    <button class="favorite">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                    </button>
+                </div>
+                </a>
+                <div class="watch-info">
+                    <div class="watch-details">
+                        <h3>Big Bang Tourbillon Carbon SR_A by Samuel Ross</h3>
+                        <p class="model">Big-Bang</p>
+                        <p class="specs">44mm</p>
+                    </div>
+                    <p class="price">$143,000</p>
+                </div>
+                <div class="actions">
+                    <button class="buy">Buy Now</button>
+                    <button class="addtocart">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="watch-card" data-model="Big Bang">
+                <div class="watch-image">
+                    <img src="images/hublot/big-bang-unico-Novak-Djokovic-42-mm-soldier_0.png" alt="Hublot Big-Bang Union Novak Djokovic">
+                    <button class="favorite">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                    </button>
+                </div>
+                <div class="watch-info">
+                    <div class="watch-details">
+                        <h3>Hublot Big-Bang Union Novak Djokovic</h3>
+                        <p class="model">Big-Bang</p>
+                        <p class="specs">42mm</p>
+                    </div>
+                    <p class="price">$2,700</p>
+                </div>
+                <div class="actions">
+                    <button class="buy">Buy Now</button>
+                    <button class="addtocart">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="watch-card" data-model="Big Bang">
+                <div class="watch-image">
+                    <img src="images/hublot/big-bang-unicoo-sailing-team-soldier-shot.png" alt="Hublot Big-Bang Unico Sailing Team">
+                    <span class="badge new">New</span>
+                    <button class="favorite">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                    </button>
+                </div>
+                <div class="watch-info">
+                    <div class="watch-details">
+                        <h3>Hublot Big-Bang Unico Sailing Team</h3>
+                        <p class="model">Big-Bang</p>
+                        <p class="specs">42mm</p>
+                    </div>
+                    <p class="price">$25,200</p>
+                </div>
+                <div class="actions">
+                    <button class="buy">Buy Now</button>
+                    <button class="addtocart">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="watch-card" data-model="Big Bang">
+                <div class="watch-image">
+                    <img src="images/hublot/Big-Bang-Unico-Yellow-Magic.png" alt="Unico Yellow Magic">
+                    <span class="badge limited">Limited Edition</span>
+                    <button class="favorite">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                    </button>
+                </div>
+                <div class="watch-info">
+                    <div class="watch-details">
+                        <h3>Unico Yellow Magic</h3>
+                        <p class="model">Big-Bang</p>
+                        <p class="specs">49mm</p>
+                    </div>
+                    <p class="price">$29,600</p>
+                </div>
+                <div class="actions">
+                    <button class="buy">Buy Now</button>
+                    <button class="addtocart">Add to Cart</button>
+                </div>
+            </div>
+            <div class="watch-card" data-model="Classic Fusion">
+              <div class="watch-image">
+                  <img src="images/hublot/Classic-Fusion-Chronograph-Arturo-Fuente-King-Gold-42-mm-Soldier.png" alt="Hublot Chronograph Arturo Fuente King Gold">
+                  <span class="badge limited">Limited Edition</span>
+                  <button class="favorite">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                  </button>
+              </div>
+              <div class="watch-info">
+                  <div class="watch-details">
+                      <h3>Hublot Chronograph Arturo Fuente King Gold</h3>
+                      <p class="model">Classic Fusion</p>
+                      <p class="specs">44mm</p>
+                  </div>
+                  <p class="price">$40,500</p>
+              </div>
+              <div class="actions">
+                  <button class="buy">Buy Now</button>
+                  <button class="addtocart">Add to Cart</button>
+              </div>
+          </div>
+          <div class="watch-card" data-model="Classic Fusion">
+            <div class="watch-image">
+                <img src="images/hublot/Classic-Fusion--Titanium-Green-29-mm-soldier.png" alt="Titanium Green">
+                <span class="badge limited">Limited Edition</span>
+                <button class="favorite">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                </button>
+            </div>
+            <div class="watch-info">
+                <div class="watch-details">
+                    <h3>Titanium Green</h3>
+                    <p class="model">Classic Fusion</p>
+                    <p class="specs">44mm</p>
+                </div>
+                <p class="price">$40,500</p>
+            </div>
+            <div class="actions">
+                <button class="buy">Buy Now</button>
+                <button class="addtocart">Add to Cart</button>
+            </div>
+        </div>
+        <div class="watch-card" data-model="Big Bang">
+          <div class="watch-image">
+              <img src="images/hublot/Square-Bang-Unico-Ceramic-Magic-Gold-42-mm-Soldier_1.png" alt="Unico Ceramic Magic Gold">
+              <span class="badge limited">Limited Edition</span>
+              <button class="favorite">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              </button>
+          </div>
+          <div class="watch-info">
+              <div class="watch-details">
+                  <h3>Unico Ceramic Magic Gold</h3>
+                  <p class="model">Square Bang</p>
+                  <p class="specs">44mm</p>
+              </div>
+              <p class="price">$31,000</p>
+          </div>
+          <div class="actions">
+              <button class="buy">Buy Now</button>
+              <button class="addtocart">Add to Cart</button>
+          </div>
+      </div>
+      <div class="watch-card" data-model="Spirit of Big Bang">
+        <div class="watch-image">
+            <img src="images/hublot/Spirit-Of-Big-Bang-Sang-Bleu-King-Gold-Blue-soldier-shot-corrected.png" alt="Sang Bleu All Black Pavé">
+            <span class="badge limited">Limited Edition</span>
+            <button class="favorite">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            </button>
+        </div>
+        <div class="watch-info">
+            <div class="watch-details">
+                <h3>Sang Bleu All Black Pavé</h3>
+                <p class="model">Spirit of Big-Bang</p>
+                <p class="specs">44mm</p>
+            </div>
+            <p class="price">$47,100</p>
+        </div>
+        <div class="actions">
+            <button class="buy">Buy Now</button>
+            <button class="addtocart">Add to Cart</button>
+        </div>
+      </div>
+      <div class="watch-card" data-model="Spirit of Big Bang">
+        <div class="watch-image">
+            <img src="images/hublot/spirit-of-big-bang-texas-42-mm-soldier.png" alt="Texas">
+            <span class="badge limited">Limited Edition</span>
+            <button class="favorite">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            </button>
+        </div>
+        <div class="watch-info">
+            <div class="watch-details">
+                <h3>Texas</h3>
+                <p class="model">Spirit of Big-Bang</p>
+                <p class="specs">44mm</p>
+            </div>
+            <p class="price">$47,100</p>
+        </div>
+        <div class="actions">
+            <button class="buy">Buy Now</button>
+            <button class="addtocart">Add to Cart</button>
+        </div>
+      </div>
+      <div class="watch-card" data-model="Spirit of Big Bang">
+        <div class="watch-image">
+            <img src="images/hublot/Spirit-of-Big-Bang-Veuve-Clicquot-Polo-Classic-42-mm-Soldier.png" alt="Veuve Clicquot Polo Classic">
+            <span class="badge limited">Limited Edition</span>
+            <button class="favorite">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            </button>
+        </div>
+        <div class="watch-info">
+            <div class="watch-details">
+                <h3>Veuve Clicquot Polo Classic</h3>
+                <p class="model">Spirit of Big-Bang</p>
+                <p class="specs">44mm</p>
+            </div>
+            <p class="price">$33,600</p>
+        </div>
+        <div class="actions">
+            <button class="buy">Buy Now</button>
+            <button class="addtocart">Add to Cart</button>
+        </div>
+      </div>
+      <div class="watch-card" data-model="Spirit of Big Bang">
+        <div class="watch-image">
+            <img src="images/hublot/Spirit-Of-Big-Bang-Sang-Bleu-King-Gold-Blue-soldier-shot-corrected.png" alt="Sang Bleu King Gold Blue">
+            <span class="badge limited">Limited Edition</span>
+            <button class="favorite">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            </button>
+        </div>
+        <div class="watch-info">
+            <div class="watch-details">
+                <h3>Sang Bleu King Gold Blue</h3>
+                <p class="model">Spirit of Big-Bang</p>
+                <p class="specs">44mm</p>
+            </div>
+            <p class="price">$2,600</p>
+        </div>
+        <div class="actions">
+            <button class="buy">Buy Now</button>
+            <button class="addtocart">Add to Cart</button>
+        </div>
+      </div>
+      <div class="watch-card" data-model="Spirit of Big Bang">
+        <div class="watch-image">
+            <img src="images/hublot/Spirit-Of-Big-Bang-Ceramic-Carbon-Beige-42-mm-sodier.png" alt="Ceramic Carbon Beige Camo">
+            <span class="badge limited">Limited Edition</span>
+            <button class="favorite">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            </button>
+        </div>
+        <div class="watch-info">
+            <div class="watch-details">
+                <h3>Ceramic Carbon Beige Camo</h3>
+                <p class="model">Spirit of Big-Bang</p>
+                <p class="specs">44mm</p>
+            </div>
+            <p class="price">$30,300<</p>
+        </div>
+        <div class="actions">
+            <button class="buy">Buy Now</button>
+            <button class="addtocart">Add to Cart</button>
+        </div>
+      </div>
+      <div class="watch-card" data-model="MP Collection">
+        <div class="watch-image">
+            <img src="images/hublot/MP-15-Takashi-Murakami-Tourbillon-Sapphire-Rainbow.png" alt="Takashi Murakami Tourbillon Sapphire Rainbow">
+            <span class="badge limited">Limited Edition</span>
+            <button class="favorite">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            </button>
+        </div>
+        <div class="watch-info">
+            <div class="watch-details">
+                <h3>Takashi Murakami Tourbillon Sapphire Rainbow</h3>
+                <p class="model">MP-Collection</p>
+                <p class="specs">44mm</p>
+            </div>
+            <p class="price">$374,000</p>
+        </div>
+        <div class="actions">
+            <button class="buy">Buy Now</button>
+            <button class="addtocart">Add to Cart</button>
+        </div>
+      </div>
+     </div>
+    </div>
+    <footer class="footer2"> 
+        <div class="footer-column"> 
+           <h3 style="color: rgb(209, 204, 204);">Customer care</h3> 
+           <ul> 
+               <li><a href="#">How to buy?</a></li> 
+               <li><a href="#">Help center</a></li> 
+               <li><a href="#">Contact us</a></li> 
+           </ul> 
+       </div> 
+       <div class="footer-column"> 
+           <h3 style="color: rgb(209, 204, 204);">Chronos</h3> 
+           <ul> 
+               <li><a href="aboutus.html">About us</a></li>
+               <li><a href="#">Privacy policy</a></li> 
+               <li><a href="#">Career</a></li> 
+               <li><a href="#">Blog</a></li> 
+               <li><a href="#">Terms & Conditions</a></li> 
+           </ul> 
+       </div> 
+       <div class="footer-column">
+            <h3 style="color: rgb(209, 204, 204);">Services</h3> 
+            <ul> 
+               <li><a href="#">Find store</a></li> 
+               <li><a href="#">Locate me</a></li> 
+               <li><a href="#">Watch finder</a></li> 
+           </ul> 
+       </div>
+        </footer>
+        
+        <footer>
+            &copy; 2025 Chronos. All rights reserved.
+        </footer>
+    <script src="script/product.js"></script>
+    <script src="script/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/c18b7bd86a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/index.css">
+
+    <title>Blog</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: #fff;
+            border-bottom: 1px solid #ccc;
+        }
+        header nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #007BFF;
+        }
+        header nav a:hover {
+            text-decoration: underline;
+        }
+        header .search {
+            display: flex;
+            align-items: center;
+        }
+        header .search input[type="text"] {
+            padding: 5px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+        header .search input[type="submit"] {
+            padding: 5px 10px;
+            margin-left: 5px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+        header .search input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+        .content {
+            padding: 0;
+            margin: 0;
+        }
+        .blog-post {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            overflow: hidden;
+            padding: 20px;
+        }
+        .blog-post img {
+            max-height: 60%;
+            width: auto;
+            height: auto;
+            margin-bottom: 20px;
+            border-radius: 8px;
+        }
+        .blog-post h3,
+        .blog-post p,
+        .blog-post .read-more {
+            margin: 10px 0;
+        }
+        .blog-post .read-more {
+            display: inline-block;
+            padding: 5px 10px;
+            background-color: #007BFF;
+            color: white;
+            text-decoration: none;
+            border-radius: 3px;
+        }
+        .blog-post .read-more:hover {
+            background-color: #0056b3;
+        }
+        .footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #373636;
+            border-top: 1px solid #ccc;
+        }
+        .footer input[type="text"] {
+            padding: 5px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+        .footer input[type="submit"] {
+            padding: 5px 10px;
+            margin-left: 5px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+        .footer input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+
+        /* Back to Top Button Styles */
+        #backToTop {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            padding: 10px 15px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            display: none; /* Hidden initially */
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        }
+        #backToTop:hover {
+            background-color: #0056b3;
+        }
+        h3 {
+            color: #3760B6;
+        }
+        .logo {
+            margin-right: 200px;
+        }
+        .content img:hover {
+            transform: scale(1.06);
+            transition: 0.6s;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="main">
+        <header>
+            <button class="menu-toggle" onclick="toggleMenu()">
+                <i class="fas fa-bars"></i>
+            </button>
+    
+            <div class="logo">
+                <img src="pic/fulllogoo.png" alt="Logo">
+            <!-- </div>
+            <div class="search-icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="login-icon">
+                <i class="fas fa-user"></i>
+            </div>
+            <div class="globe-icon">
+                <i class="fa-solid fa-globe"></i>
+            </div>
+            <div class="cart-icon">
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+            <div class="wishlist-icon">
+                <i class="fa-regular fa-heart"></i>
+            </div> -->
+            
+            <div class="menu" id="menubar">
+                <div class="menu-header">
+                    <button class="close-btn" onclick="toggleMenu()">
+                        <i class="fa-solid fa-xmark"></i>
+                        
+                    </button>
+                </div>
+
+                <div class="menu-content">
+                    <button class="menu-item"><a href="index.html">Home</a></button>
+                    <button class="menu-item"> <a href="product.html">Product</a></button>
+                    <button class="menu-item"><a href="Blog.html">Blog</a></button>
+                    <button class="menu-item"><a href="research.html">Research</a></button>
+                    <button class="menu-item"><a href="aboutus.html">About Us</a></button>
+                </div>
+            </div>
+        </header>
+    </div>
+
+<h1 style="color: #3760B6; text-align: center;">Blog</h1>
+<section class="content">
+    <div class="blog-post">
+        <img src="pic/vintage.jpg" alt="Classic Watches">
+        <h3>Timeless Elegance: Classic Watches</h3>
+        <p>Discover the charm of classic watches that blend vintage designs with modern precision. Perfect for any occasion, these timeless pieces never go out of style.</p>
+        <a href="blog1.html" class="read-more">Read more</a>
+    </div>
+    <div class="blog-post">
+        <img src="pic/smart.jpg" alt="Smart Watches">
+        <h3>The Intersection of Tradition and Innovation: Technology in Watchmaking</h3>
+        <p>Explore our range of smartwatches that keep you connected, track your fitness, and add a touch of tech-savvy style to your wardrobe.</p>
+        <a href="blog2.html" class="read-more">Read more</a>
+    </div>
+    <div class="blog-post">
+        <img src="pic/Rolex.jpg" alt="Luxury Watches">
+        <h3>Luxury Redefined: Premium Watches</h3>
+        <p>Indulge in the world of luxury watches that combine exquisite craftsmanship and premium materials for the ultimate statement piece.</p>
+        <a href="blog3.html" class="read-more">Read more</a>
+    </div>
+    <div class="blog-post">
+        <img src="pic/neg.jpg" alt="Luxury Watches">
+        <h3>Luxury Redefined: Premium Watches</h3>
+        <p>Indulge in the world of luxury watches that combine exquisite craftsmanship and premium materials for the ultimate statement piece.</p>
+        <a href="blog4.html" class="read-more">Read more</a>
+    </div>
+    <div class="blog-post">
+        <img src="pic/po.jpg" alt="Luxury Watches">
+        <h3>Luxury Redefined: Premium Watches</h3>
+        <p>Indulge in the world of luxury watches that combine exquisite craftsmanship and premium materials for the ultimate statement piece.</p>
+        <a href="blog5.html" class="read-more">Read more</a>
+    </div>
+</section>
+
+
+<footer class="footer">
+    <div>
+        <label for="email" style="color: white;">Join us on:</label>
+        <input type="text" id="email" placeholder="Email or Phone">
+        <input type="submit" id="submit">
+    </div>
+</footer>
+<footer class="footer2"> 
+    <div class="footer-column"> 
+       <h3 style="color: rgb(209, 204, 204);">Customer care</h3> 
+       <ul> 
+           <li><a href="#">How to buy?</a></li> 
+           <li><a href="#">Help center</a></li> 
+           <li><a href="#">Contact us</a></li> 
+       </ul> 
+   </div> 
+   <div class="footer-column"> 
+       <h3 style="color: rgb(209, 204, 204);">Chronos</h3> 
+       <ul> 
+           <li><a href="aboutus.html">About us</a></li>
+           <li><a href="#">Privacy policy</a></li> 
+           <li><a href="#">Career</a></li> 
+           <li><a href="#">Blog</a></li> 
+           <li><a href="#">Terms & Conditions</a></li> 
+       </ul> 
+   </div> 
+   <div class="footer-column">
+        <h3 style="color: rgb(209, 204, 204);">Services</h3> 
+        <ul> 
+           <li><a href="#">Find store</a></li> 
+           <li><a href="#">Locate me</a></li> 
+           <li><a href="#">Watch finder</a></li> 
+       </ul> 
+   </div>
+    </footer>
+
+<footer>
+    <p>&copy; 2025 Chronos. All rights reserved.</p>
+</footer>
+<script src="script/index.js"></script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+

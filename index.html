@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/c18b7bd86a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/index.css">
+    <title>Chronos.com</title>
+
+</head>
+<body>
+
+    <div class="main">
+        <header>
+            <button class="menu-toggle" onclick="toggleMenu()">
+                <i class="fas fa-bars"></i>
+            </button>
+    
+            <div class="logo">
+                <img src="pic/fulllogoo.png" alt="Logo">
+            </div>
+            <div class="search-icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="login-icon">
+                <i class="fas fa-user"></i>
+            </div>
+            <div class="globe-icon">
+                <i class="fa-solid fa-globe"></i>
+            </div>
+            <!-- <div class="cart-icon">
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+            <div class="wishlist-icon">
+                <i class="fa-regular fa-heart"></i>
+            </div> -->
+            
+            <div class="menu" id="menubar">
+                <div class="menu-header">
+                    <button class="close-btn" onclick="toggleMenu()">
+                        <i class="fa-solid fa-xmark"></i>
+                        
+                    </button>
+                </div>
+
+                <div class="menu-content">
+                    <button class="menu-item"><a href="index.html">Home</a></button>
+                    <button class="menu-item"> <a href="product.html">Product</a></button>
+                    <button class="menu-item"><a href="Blog.html">Blog</a></button>
+                    <button class="menu-item"><a href="research.html">Research</a></button>
+                    <button class="menu-item"><a href="aboutus.html">About Us</a></button>
+                </div>
+            </div>
+        </header>
+    </div>
+
+    <video autoplay muted loop>
+        <source src="video/y2mate.com - Rolex Explorer_v720P.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <style>
+        .hero {
+            display: inline-block;
+            justify-content: center;
+            text-align: center;
+            position: relative;
+            bottom: 500px;
+            left: 45%;
+        }
+        .hero button {
+            height: 50px;
+            width: 170px;
+            background-color: rgb(55, 55, 163);
+            border-radius: 30px;
+            font-size: 20px;
+            color: white;
+            border: 1px solid blue;
+            cursor: pointer;
+        }
+        .hero button:hover {
+            background-color: white;
+            color: blue;
+        }
+
+    </style>
+    <div class="hero">
+        <button>Learn More</button>
+    </div>
+
+    <style>
+        .forher button{
+            background-color: rgba(0, 0, 0, 0.7);
+            color: white;
+        }
+
+        .forhim button{
+            background-color: rgba(0, 0, 0, 0.7);
+            color: white;
+        }
+        .forher button:hover {
+                background-color: blue;
+                color: white;
+        }
+        .forhim button:hover {
+            background-color: blue;
+            color: white;
+        }
+
+        .gifting {
+            margin-top: 30px;
+            border-radius: 4px;
+        }
+
+
+    </style>
+
+    <div class="gifting">
+        <div class="forher">
+        <img src="pic/shop-time-logo-template-design-vector-emblem-design-concept-creative-symbol-icon_316488-2655.jpg" alt="naviforce" height="700px" width="700px">
+        <button class="buttonher">Gift for her</button>
+        </div>
+        <div class="forhim">
+        <img src="pic/him.webp" alt="naviforce" height="700px" width="700px">
+        <button class="buttonher">Gift for him</button>
+        </div>
+    </div>
+
+    <div class="gurkha">
+        <h1>New Gorkha Watch</h1>
+        <p>Made In Nepal </p>
+    </div>
+
+    <div class="gurkhaimg">
+        <div class="img1">
+            <img src="pic/gorkha1.jpg" alt="gorkha watch" height="500px" width="500px">
+        </div>
+        <div class="img1preview">
+            <h1 style="color: #3760B6;">G200-Dark</h1>
+            <p>Rs 19,594</p>
+            <li>100M water resistance</li>
+            <li>3 years international warrenty</li>
+            <li>SAPPHIRE CRYSTAL GLASS</li>
+            <li>International delivery</li>
+            <li>Free delivery over UK and Nepal</li>
+        </div>
+    </div>
+    
+    <h1 class="sell" style="color: #3760B6;">Top international selling brands</h1>
+    
+    <div class="brands">
+        <div class="naviforce box">
+            <div class="brandimg bimg" style="background-image: url(pic/naviforceimg.webp);"></div>
+            <p>Naviforce</p>
+        </div>
+
+        <div class="rolex box">
+            <div class="brandimg" style="background-image: url(pic/roleximg.jpg);"></div>
+            <p>Rolex</p>
+        </div>
+
+        <div class="omega box">
+            <div class="brandimg" style="background-image: url(pic/omegaimg.webp);"></div>
+            <p>Omega</p>
+        </div>
+    </div>
+    
+    <div class="quotes">
+        <h2>It doesnt just tell time. It tells history </h2>
+        <h3 style="color: #3760B6;">-Rolex</h3>
+    </div>
+
+    <style>
+    .topselling {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 10px;
+    font-family: Arial, Helvetica, sans-serif
+    }
+
+    .sbox {
+    border: 2px solid black;
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    border: none;
+    padding: 20px 0px 15px;
+    margin-top: 18px;
+    position: relative;
+    bottom: 2px;
+    scale: .8; opacity: 0;
+    animation: heroimage linear forwards;
+    animation-timeline: view();
+    animation-range: entry;
+    }
+
+    .sellimg {
+    height: 320px;
+    width: 320px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    }
+
+    .sellimg:hover {
+    transform: scale(1.1);
+    transition: 0.8s;
+    }
+
+    .content {
+    margin-left: 10px;
+    margin-right: 10px;
+    }
+
+    .content h3 {
+    color: #3760B6;
+    padding: 2px;
+    }
+
+    .content p {
+    size: 15px;
+    color: rgb(135, 135, 19);
+    position: relative;
+    bottom: 6px;
+    left: 4px;
+    
+    }
+
+    </style>
+
+
+    <h1 style="text-align: center;; font-family: Arial, Helvetica, sans-serif; color: #3760B6;">Top selling</h1>
+    <div class="topselling">
+        <div class="topsellbox1 sbox">
+            <div class="content"> 
+                <div class="sellimg" style="background-image: url(pic/top1.jpg);"></div>
+                <h3>TAG Heuer Aquaracer </h3>
+                <p>Rs 7500 <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
+            </div>
+            </div>
+
+        <div class="topsellbox1 sbox">
+            <div class="content">
+            <div class="sellimg" style="background-image: url(pic/top2.jpg);"></div>
+            <h3>NaviForce NF9167 - Blue </h3>
+            <p>Rs 3099  <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i></p>
+
+        </div>
+        </div>
+
+    <div class="topsellbox1 sbox">
+        <div class="content">
+        <div class="sellimg" style="background-image: url(pic/top3.webp);"></div>
+        <h3>Titan Workwear Blue Women Watch</h3>
+        <p>Rs 4250 <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
+     </div>
+        </div>
+
+        <div class="topsellbox1 sbox">
+            <div class="content">
+            <div class="sellimg" style="background-image: url(pic/top4.jpg);"></div>
+            <h3>Rolex Oyester </h3>
+            <p>Rs 2000 <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
+        </div>
+            </div>
+    </div>
+    <br>
+    
+    <style>
+
+    .quotes2 {
+    height: 150px;
+    /* background-color: aliceblue; */
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.quotes h2 {
+    margin-top: 30px;
+}
+
+.quotes2 p {
+
+    margin-left: 340px;
+}
+    </style>
+
+    <div class="quotes2">
+    <h2>Time is what we want most, but what we use worst...</h2>
+    <p style="color: #3760B6;">-William Pen</p>
+    </div>
+<style>
+    .rolexhero {
+    background-image: url(pic/rolexhero.webp);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    scale: .8; opacity: 0;
+    animation: heroimage linear forwards;
+    animation-timeline: view();
+    animation-range: 200px 700px;
+    }
+
+    .rolexhero p {
+        position: relative;
+        top: 50%;
+        background-color: rgba(0, 0, 0, 0.5); 
+        
+    }
+</style>
+
+    <div class="rolexhero">
+        <p style="color: white; font-size: 50px; text-align: center; margin-top: 30px;">ROLEX Oyster Perpetual Deepsea</p>
+    </div>
+    <style>
+        .red {
+          color: #3760B6; 
+        }
+      
+        .black {
+          color: black;
+        }
+      </style>
+
+<h1 style="text-align: center; font-family: Arial, Helvetica, sans-serif; font-size: 50px;"><span class="red">Hublot in</span> <span class="black">Black</span></h1>
+<p style="text-align: center; font-family: Arial, Helvetica, sans-serif; font-size: 20px;">New arrival in Three Sizes</p>
+
+<style>
+    .hublot1 {
+    display: flex;
+    margin-left: 700px;
+    scale: .8; opacity: 0;
+    animation: heroimage linear forwards;
+    animation-timeline: view();
+    animation-range: 200px 700px;
+    }
+
+    .hublot2 {
+    display: flex;
+    margin-left: 200px;
+    scale: .8; opacity: 0;
+    animation: heroimage linear forwards;
+    animation-timeline: view();
+    animation-range: 200px 700px;
+        
+    }
+
+    .hublot3 {
+    display: flex;
+    justify-content: center;
+    margin-left: 350px;
+    scale: .8; opacity: 0;
+    animation: heroimage linear forwards;
+    animation-timeline: view();
+    animation-range: 200px 700px;
+        
+    }
+</style>
+
+
+<div class="hublot1 ">
+    <img src="pic/hublot1.jpg" alt="hublot" height="360px" width="450px" class="hubimg1">
+</div>
+<div class="hublot2">
+    <img src="pic/hublot2.jpg" alt="hublot" height="360px" width="450px" class="hubimg1">
+</div>
+<div class="hublot3">
+    <img src="pic/hublot3.jpg" alt="hublot" height="360px" width="450px" class="hubimg1">
+</div>
+
+<style>
+    .watchlooks {
+        align-items: center;
+        text-align: center;
+        align-content: center;
+    }
+
+</style>
+    
+    <h1 style="text-align: center; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 40px; color: #3760B6;">A new look for your watch</h1>
+
+<!-- footer start -->
+
+     <style>
+        .footer0 {
+            display: flex; justify-content: center;
+            align-items: center;
+            /* background-color: #e8e8e8;  */
+            padding: 10px;
+            margin-top: 100px;
+            background-color:  #373636;
+        }
+    
+        .footer0 ul li {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 26px;
+        }
+    
+        .footer0 a {
+            text-decoration: none;
+            color: black;
+        }
+    
+    </style>
+
+    <style>
+        .newsett {
+            text-align: center;
+            font-size: 15px;
+            height: 50px;
+            width: 200px;
+            border-radius: 20px;
+            margin-left: 10%;
+            color: blue;
+            border: 2px solid rgb(206, 206, 221);
+        }
+
+        .newsett:hover{
+            background-color: blue;
+            color: white;
+            border: 1px solid blue;
+            cursor: pointer;
+        }
+        .footer0 a{
+            color: rgb(209, 204, 204);
+        }
+    </style>
+    
+    <div class="footer0">
+        
+        <h2 style="text-align: center; font-family: Arial, Helvetica, sans-serif; font-size: 30px; color: rgb(209, 204, 204);" class="text">Follow us on :</h2>
+        <ul>
+            <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+        </ul>
+    </div>
+    <style>
+        .contact {
+            background-color:  #373636;
+        }
+    </style>
+    <div class="contact">
+        <a href="contact.html">
+        <button>Contact Us</button>
+        </a>
+    </div>
+
+     
+    </div>
+    <style>
+    footer {
+    text-align: center;
+    padding: 10px;
+    background-color:  #373636;
+    color: rgb(206, 206, 221);
+    }
+    </style>
+
+    <style>
+    .footer2 {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.footer-column {
+    list-style-type: none;
+    padding: 0;
+    font-size: 20px;
+    text-align: left;
+}
+.footer-column h3 {
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+.footer-column li {
+    margin-bottom: 5px;
+    color: rgb(209, 204, 204);
+}
+.footer-column a {
+    text-decoration: none;
+    color: rgb(209, 204, 204);
+}
+.footer-column a:hover {
+    text-decoration: underline;
+}
+    </style>
+
+<footer class="footer2"> 
+    <div class="footer-column">
+        <h3 style="color: rgb(209, 204, 204);">Join chronos family</h3>
+       <a href="newsletter.html">
+               <button class="newsett">Subscribe as NewSletter</button>
+       </a>
+    </div>
+    <div class="footer-column"> 
+       <h3 style="color: rgb(209, 204, 204);">Customer care</h3> 
+       <ul> 
+           <li><a href="#">How to buy?</a></li> 
+           <li><a href="#">Help center</a></li> 
+           <li><a href="#">Contact us</a></li> 
+       </ul> 
+   </div> 
+   <div class="footer-column"> 
+       <h3 style="color: rgb(209, 204, 204);">Chronos</h3> 
+       <ul> 
+           <li><a href="aboutus.html">About us</a></li>
+           <li><a href="#">Privacy policy</a></li> 
+           <li><a href="#">Career</a></li> 
+           <li><a href="#">Blog</a></li> 
+           <li><a href="#">Terms & Conditions</a></li> 
+       </ul> 
+   </div> 
+   <div class="footer-column">
+        <h3 style="color: rgb(209, 204, 204);">Services</h3> 
+        <ul> 
+           <li><a href="#">Find store</a></li> 
+           <li><a href="#">Locate me</a></li> 
+           <li><a href="#">Watch finder</a></li> 
+       </ul> 
+   </div>
+    </footer>
+    
+    <footer>
+        &copy; 2025 Chronos. All rights reserved.
+    </footer>
+
+<script src="script/index.js"></script>
+
+</body>
+</html>

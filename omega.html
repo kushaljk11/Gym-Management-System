@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/c18b7bd86a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/omeha.css">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Omega Collection</title>
+</head>
+<body>
+    <div class="main">
+        <header>
+            <button class="menu-toggle" onclick="toggleMenu()">
+                <i class="fas fa-bars"></i>
+            </button>
+    
+            <div class="logo">
+                <img src="pic/fulllogoo.png"  href="index.html" alt="Logo">
+            </div>
+            <!-- <div class="search-icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="login-icon">
+                <i class="fas fa-user"></i>
+            </div>
+            <div class="globe-icon">
+                <i class="fa-solid fa-globe"></i>
+            </div> -->
+            <div class="cart-icon">
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+            <div class="wishlist-icon">
+                <i class="fa-regular fa-heart"></i>
+            </div>
+            
+            <div class="menu" id="menubar">
+                <div class="menu-header">
+                    <button class="close-btn" onclick="toggleMenu()">
+                        <i class="fa-solid fa-xmark"></i>
+                        
+                    </button>
+                </div>
+
+                <div class="menu-content">
+                    <button class="menu-item"><a href="index.html">Home</a></button>
+                    <button class="menu-item"> <a href="product.html">Product</a></button>
+                    <button class="menu-item"><a href="Blog.html">Blog</a></button>
+                    <button class="menu-item"><a href="research.html">Research</a></button>
+                    <button class="menu-item"><a href="aboutus.html">About Us</a></button>
+                </div>
+            </div>
+        </header>
+    </div>
+    <div class="container">
+        <h2 class="wheading">Find your Omega</h2>
+        <div class="filters">
+            <div class="search-wrapper">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+                <input type="text" placeholder="Search watches...">
+            </div>
+            
+            <div class="filter-controls">
+                <button class="filter-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="21" x2="3" y1="4" y2="4"/><line x1="13" x2="3" y1="12" y2="12"/><line x1="21" x2="3" y1="20" y2="20"/></svg>
+                    Filters
+                </button>
+                <select id="model-select">
+                    <option>All Collections</option>
+                    <option>Constellation</option>
+                    <option>SeaMaster</option>
+                    <option>SpeedMaster</option>
+                    <option>De Ville</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="watch-grid">
+             <div class="watch-card" data-model="SpeedMaster">
+                <div class="watch-image">
+                    <a href="omegadescp.html">
+                    <img src="images/omega/Used-OMEGA-Speedmaster-145.022-Black-Index-Dial-SKU170555.jpg" alt="Vintage Omega Speedmaster Black Dial">
+                    <span class="badge limited">Limited Edition</span>
+                    <button class="favorite">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                    </button>
+                </a> q
+                </div>
+                <div class="watch-info">
+                    <div class="watch-details">
+                        <h3>Vintage Omega Speedmaster Black Dial</h3>
+                        <p class="model">Speedmaster </p>
+                        <p class="specs">44mm</p>
+                    </div>
+                    <p class="price">$6,395</p>
+                </div>
+                <div class="actions">
+                    <button class="buy">Buy Now</button>
+                    <button class="addtocart">Add to Cart</button>
+                </div>
+             </div>
+            <div class="watch-card" data-model="SpeedMaster">
+             <div class="watch-image">
+                  <img src="images/omega/Omega Speedmaster Silver Snoopy Award.avif" alt="Omega Speedmaster Silver Snoopy Award">
+                  <span class="badge limited">Limited Edition</span>
+                  <button class="favorite">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                  </button>
+              </div>
+              <div class="watch-info">
+                  <div class="watch-details">
+                      <h3>Omega Speedmaster Silver Snoopy Award</h3>
+                      <p class="model"> Speedmaster</p>
+                      <p class="specs">44mm</p>
+                  </div>
+                  <p class="price">$17,995</p>
+              </div>
+              <div class="actions">
+                  <button class="buy">Buy Now</button>
+                  <button class="addtocart">Add to Cart</button>
+              </div>
+           </div>
+            <div class="watch-card" data-model="SeaMaster">
+             <div class="watch-image">
+                  <img src="images/omega/Omega Seamaster Diver 300M Beijing 2022 Stainless Steel.avif" alt="Omega Seamaster Diver 300M Beijing 2022 Stainless Steel">
+                  <span class="badge limited">Limited Edition</span>
+                  <button class="favorite">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                  </button>
+              </div>
+              <div class="watch-info">
+                  <div class="watch-details">
+                      <h3>Omega Seamaster Diver 300M Beijing 2022 Stainless Steel</h3>
+                      <p class="model"> SeaMaster</p>
+                      <p class="specs">42mm</p>
+                  </div>
+                  <p class="price">$4,595</p>
+              </div>
+              <div class="actions">
+                  <button class="buy">Buy Now</button>
+                  <button class="addtocart">Add to Cart</button>
+              </div>
+           </div>
+            <div class="watch-card" data-model="De Ville">
+             <div class="watch-image">
+                  <img src="images/omega/Omega De Ville Prestige Champagne Diamond Dial.jpg" alt="Omega De Ville Prestige Champagne Diamond Dial">
+                  <span class="badge limited">Limited Edition</span>
+                  <button class="favorite">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                  </button>
+              </div>
+              <div class="watch-info">
+                  <div class="watch-details">
+                      <h3>Omega De Ville Prestige Champagne Diamond Dial</h3>
+                      <p class="model"> De Ville"</p>
+                      <p class="specs">42mm</p>
+                  </div>
+                  <p class="price">$4,095</p>
+              </div>
+              <div class="actions">
+                  <button class="buy">Buy Now</button>
+                  <button class="addtocart">Add to Cart</button>
+              </div>
+           </div>
+           <div class="watch-card" data-model="SeaMaster">
+             <div class="watch-image">
+                  <img src="images/omega/Omega Seamaster Regatta America's Cup Titanium on Rubber Strap.jpg" alt="Omega Seamaster Regatta America's Cup Titanium on Rubber Strap">
+                  <span class="badge limited">Limited Edition</span>
+                  <button class="favorite">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                  </button>
+              </div>
+              <div class="watch-info">
+                  <div class="watch-details">
+                      <h3>Omega Seamaster Diver 300M Beijing 2022 Stainless Steel</h3>
+                      <p class="model"> Seamaster</p>
+                      <p class="specs">42mm</p>
+                  </div>
+                  <p class="price">$4,595</p>
+              </div>
+              <div class="actions">
+                  <button class="buy">Buy Now</button>
+                  <button class="addtocart">Add to Cart</button>
+              </div>
+           </div>
+            <div class="watch-card" data-model="SeaMaster">
+             <div class="watch-image">
+                  <img src="images/omega/Omega Seamaster Black Dial Stainless Steel.jpg" alt="Omega Seamaster Black Dial Stainless Steel">
+                  <span class="badge limited">Limited Edition</span>
+                  <button class="favorite">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                  </button>
+              </div>
+              <div class="watch-info">
+                  <div class="watch-details">
+                      <h3>Omega Seamaster Black Dial Stainless Steel</h3>
+                      <p class="model"></p>Seamaster</p>
+                      <p class="specs">42mm</p>
+                  </div>
+                  <p class="price">$4,595</p>
+              </div>
+              <div class="actions">
+                  <button class="buy">Buy Now</button>
+                  <button class="addtocart">Add to Cart</button>
+              </div>
+           </div>
+            <div class="watch-card" data-model="SeaMaster">
+             <div class="watch-image">
+                  <img src="images/omega/Omega Seamaster James Bond Limited Edition.jpg" alt="Omega Seamaster James Bond Limited Edition">
+                  <span class="badge limited">Limited Edition</span>
+                  <button class="favorite">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                  </button>
+              </div>
+              <div class="watch-info">
+                  <div class="watch-details">
+                      <h3>Omega Seamaster James Bond Limited Edition</h3>
+                      <p class="model"></p> Seamaster </p>
+                      <p class="specs">42mm</p>
+                  </div>
+                  <p class="price">$8,595</p>
+              </div>
+              <div class="actions">
+                  <button class="buy">Buy Now</button>
+                  <button class="addtocart">Add to Cart</button>
+              </div>
+           </div>
+            <div class="watch-card" data-model="SpeedMaster">
+             <div class="watch-image">
+                  <img src="images/omega/Omega Speedmaster Reduced Black Dia.jpg" alt="Omega Speedmaster Reduced Black Dial">
+                  <span class="badge limited">Limited Edition</span>
+                  <button class="favorite">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                  </button>
+              </div>
+              <div class="watch-info">
+                  <div class="watch-details">
+                      <h3>Omega Speedmaster Reduced Black Dial</h3>
+                      <p class="model"></p> Speedmaster </p>
+                      <p class="specs">42mm</p>
+                  </div>
+                  <p class="price">$2,895</p>
+              </div>
+              <div class="actions">
+                  <button class="buy">Buy Now</button>
+                  <button class="addtocart">Add to Cart</button>
+              </div>
+           </div>
+         </div>
+    </div>
+    <footer class="footer2"> 
+        <div class="footer-column"> 
+           <h3 style="color: rgb(209, 204, 204);">Customer care</h3> 
+           <ul> 
+               <li><a href="#">How to buy?</a></li> 
+               <li><a href="#">Help center</a></li> 
+               <li><a href="#">Contact us</a></li> 
+           </ul> 
+       </div> 
+       <div class="footer-column"> 
+           <h3 style="color: rgb(209, 204, 204);">Chronos</h3> 
+           <ul> 
+               <li><a href="aboutus.html">About us</a></li>
+               <li><a href="#">Privacy policy</a></li> 
+               <li><a href="#">Career</a></li> 
+               <li><a href="#">Blog</a></li> 
+               <li><a href="#">Terms & Conditions</a></li> 
+           </ul> 
+       </div> 
+       <div class="footer-column">
+            <h3 style="color: rgb(209, 204, 204);">Services</h3> 
+            <ul> 
+               <li><a href="#">Find store</a></li> 
+               <li><a href="#">Locate me</a></li> 
+               <li><a href="#">Watch finder</a></li> 
+           </ul> 
+       </div>
+        </footer>
+        
+        <footer>
+            &copy; 2025 Chronos. All rights reserved.
+        </footer>
+    <script src="script/product.js"></script>
+    <script src="script/index.js"></script>
+</body>
+</html>
